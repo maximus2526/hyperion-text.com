@@ -124,8 +124,8 @@
             <div class="col-3"></div> 
             <div class="col-8 slider">
                 <div class="row">
-                    <div class="col-auto scheme-light">
-                        <div class="slider-description">
+                    <div class="col-auto slider-description">
+                        <div class="scheme-light">
                             <p>Subtitle for this title</p>
                             <h1>Camping & Hiking  Products Discount</h1>
                             <p>Unpacked reserver sir offering bed judgment may and quitting speaking.</p>
@@ -136,8 +136,8 @@
                             <a class='switch-btn'>&gt;</a>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="row">
+                    <div class="col-6 scheme-dark">
+                        <div class="row product-info">
                             <img class="product-img" src="img/products/hyperion-product-img-26.jpg" alt="Product img">
                             <div class="col-auto">
                                 <p>Eta Lite - Gas Stove</p>
@@ -146,7 +146,7 @@
                                 <a href="#">View More →</a>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row product-info">
                             <img class="product-img" src="img/products/hyperion-product-img-26.jpg" alt="Product img">
                             <div class="col-auto">
                                 <p>Eta Lite - Gas Stove</p>
@@ -155,7 +155,7 @@
                                 <a href="#">View More →</a>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row product-info">
                             <img  class="product-img" src="img/products/hyperion-product-img-26.jpg" alt="Product img">
                             <div class="col-auto">
                                 <p>Eta Lite - Gas Stove</p>

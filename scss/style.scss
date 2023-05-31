@@ -53,6 +53,14 @@
     & *::after {
         filter: invert(100%);
     }
+    .old-price {
+        color: gray;
+        text-decoration: line-through;
+    }
+
+    .price {
+        color: #1169b6;
+    }
 }
 
 .style-bordered {
@@ -339,27 +347,9 @@
 
 // Slider
 .slider {
-    [class^="col"]{
+    [class^="col"] {
         flex-direction: column;
     }   
-
-    & .row {
-        flex-wrap: nowrap;
-        >:first-child .row{
-            display: flex;
-            justify-content: center;
-            
-        }
-        >:last-child .row{
-            background: #ffffff;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content:  center;
-            
-        }
-
-    }
 
     min-height: 510px;
     background-image: url("../../img/hyperion-slider-1.jpg");
@@ -369,15 +359,66 @@
     margin-top: 20px;
     border-radius: 5px;
 
-    .product-img{
+
+
+
+    .product-info {
+        padding: 20px;
+        margin: 20px;
+        .col-auto{
+            :last-child{
+                font-weight: 700;
+                color: black;
+            }
+              
+        }
+    }
+    .slider-description {
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        h1 {
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            opacity: 70%;
+        }
+    }
+    .product-img {
         max-width: 70px;
         border-radius: 5px;
     }
+
+    & .row {
+        flex-wrap: nowrap;
+
+        >:first-child {
+
+            &.row{
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+        >:last-child .row{
+            background: #ffffff;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content:  center;
+        }
+
+    }
+
 
 
     
     .read-more-btn {
         background: #f1bb2f;
+        max-width: 80px;
         border-radius: 5px;
         padding: 15px 25px;
         color: white;
