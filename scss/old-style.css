@@ -12,10 +12,6 @@ a {
   color: black;
 }
 
-input::-moz-placeholder {
-  padding-left: 20px;
-}
-
 input::placeholder {
   padding-left: 20px;
 }

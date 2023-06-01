@@ -11,26 +11,27 @@
 
 <body>
     <header>
-        <div class="header-top scheme-light">
-            <div class="container">
+        <div class="header-top">
+            <div class="container scheme-light">
                 <div class="row">
                     <div class="col-auto">
                         <ul class="nav">
-                            <li>Call Now: <a href="tel:+035527171070">(+035) 527-1710-70</a></li>
-                            <li>Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a></li>
+                            <li class="subtitle">Call Now: <a href="tel:+035527171070">(+035) 527-1710-70</a></li>
+                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-auto header-col-right">
-                        <p>Ample end might folly quiet one set spoke.</p>
+                        <p class="subtitle">Ample end might folly quiet one set spoke.</p>
                         <ul class="nav style-bordered">
-                            <li class="has-dropdown"><a href="/?currency=uan">USD</a></li>
-                            <li class="has-dropdown"><a href="/?language=ua"><img src="img/svg/usa.svg" alt=""></a></li>
+                            <li class="has-dropdown subtitle"><a href="/?currency=uan">USD</a></li>
+                            <li class="has-dropdown subtitle"><a href="/?language=ua"><img src="img/svg/usa.svg"
+                                        alt=""></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="header-middle">
             <div class="container scheme-dark">
                 <div class="row">
@@ -77,58 +78,102 @@
         </div>
         <div class="header-bottom">
             <div class="container">
-                <div class="row header-menu">
-                    <div class="col-3 browse-categories">
-                        <div class="categories-btn scheme-light ">
-                            <img class="browse-sign" src="img/svg/browse.svg" alt="">
-                            <div class="has-dropdown">
-                                <p>Browse Categories</p>
-                            </div>
-                            <ul class="drop-down scheme-dark always-open">
-                                <li class="has-dropdown-horizontal">
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-dress.svg" alt="">
-                                    <a href="#">Women's clothing</a>
-                                </li>
-                                <li class="has-dropdown-horizontal">
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-volunteer.svg"
-                                        alt="">
-                                    <a href="#">Mans clothing</a>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="browse-categories">
+                            <div class="heading scheme-light">
+                                <div class="dropdown-title">
+                                    <div class="left-side">
+                                        <img class="browse-sign" src="img/svg/browse.svg" alt="Browse Categories Icon">
+                                        <span>Browse Categories</span>
+                                    </div>
 
-                                </li>
-                                <li class="has-dropdown-horizontal">
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-smartphone.svg"
-                                        alt="">
-                                    <a href="#">Phones and accessories</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-hammer.svg" alt="">
-                                    <a href="#">Industrial and building tools</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-car-parts.svg"
-                                        alt="">
-                                    <a href="#">Cars and motorcycles</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-duck.svg" alt="">
-                                    <a href="#">Toys hobbies and robot</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-watch.svg" alt="">
-                                    <a href="#">Watches and trackers</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-lamp.svg" alt="">
-                                    <a href="#">Lights and lighting</a>
-                                </li>
-                                <li>
-                                    <img class="item-icon" src="img/svg/category-menu/hyperion-line-heart.svg" alt="">
-                                    <a href="#">Health protection</a>
-                                </li>
-                            </ul>
+                                    <img class="dropdown-icon" src="img/svg/dropdown-sign.svg" alt="">
+
+                                </div>
+                            </div>
+                            <div class="dropdown always-open">
+                                <div class="nav vertical scheme-dark ">
+                                    <ul>
+                                        <li class="has-dropdown-horizontal">
+                                            <a href="#">
+                                                <span class="left-side">
+                                                    <img class="item-icon"
+                                                        src="img/svg/category-menu/hyperion-line-dress.svg" alt="">
+                                                    Women's clothing
+                                                </span>
+                                                <img class="dropdown-icon" src="img/svg/dropdown-sign.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="has-dropdown-horizontal">
+                                            <a href="#">
+                                                <span class="left-side">
+                                                    <img class="item-icon"
+                                                        src="img/svg/category-menu/hyperion-line-volunteer.svg" alt="">
+                                                    Mans clothing
+                                                </span>
+                                                <img class="dropdown-icon" src="img/svg/dropdown-sign.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="has-dropdown-horizontal">
+                                            <a href="#">
+                                                <span class="left-side">
+                                                    <img class="item-icon"
+                                                        src="img/svg/category-menu/hyperion-line-smartphone.svg" alt="">
+                                                    Phones and accessories
+                                                </span>
+                                                <img class="dropdown-icon" src="img/svg/dropdown-sign.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-hammer.svg" alt="">
+                                                <span>Industrial and building tools</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-car-parts.svg" alt="">
+                                                <span>Cars and motorcycles</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-duck.svg" alt="">
+                                                <span>Toys hobbies and robot</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-watch.svg" alt="">
+                                                <span>Watches and trackers</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-lamp.svg" alt="">
+                                                <span>Lights and lighting</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="item-icon"
+                                                    src="img/svg/category-menu/hyperion-line-heart.svg" alt="">
+                                                <span>Health protection</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
-                    <div class="col-5 scheme-dark">
+                    <div class="col-auto scheme-dark">
                         <ul class="nav">
                             <li class="has-dropdown active"><a href="#">Home</a></li>
                             <li class="has-dropdown"><a href="#">Shop</a></li>
@@ -137,7 +182,7 @@
                             <li class="has-dropdown"><a href="#">Contact us</a></li>
                         </ul>
                     </div>
-                    <div class="col-3 style-bordered">
+                    <div class="col-fixed style-bordered">
                         <a href="#" class="purchase-now">Purchase Now!</a>
                         <p>Free Shipping from $300</p>
                     </div>
@@ -147,52 +192,74 @@
     </header>
 
     <div class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-8 slider">
-                    <div class="row">
-                        <div class="col-auto slider-description">
-                            <div class="scheme-light">
-                                <p>Subtitle for this title</p>
-                                <h1>Camping & Hiking Products Discount</h1>
-                                <p>Unpacked reserver sir offering bed judgment may and quitting speaking.</p>
-                            </div>
-                            <a class="read-more-btn" href="#">Read More</a>
-                            <div class="slider-btn">
-                                <a class='switch-btn'>&lt;</a>
-                                <a class='switch-btn'>&gt;</a>
-                            </div>
-                        </div>
-                        <div class="col-6 scheme-dark">
-                            <div class="row product-info">
-                                <img class="product-img" src="img/products/hyperion-product-img-26.jpg"
-                                    alt="Product img">
+        <div class="slider-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-auto">
+                        <div class="slider">
+                            <div class="row">
                                 <div class="col-auto">
-                                    <p>Eta Lite - Gas Stove</p>
-                                    <p class="price">$ 111.96</p>
-                                    <p class="old-price">$ 139.95</p>
-                                    <a href="#">View More →</a>
+                                    <div class="slider-description scheme-light">
+                                        <div>
+                                            <p class="subtitle">Subtitle for this title</p>
+                                            <h4>Camping & Hiking Products Discount</h4>
+                                            <p class="description">Unpacked reserver sir offering bed judgment may and
+                                                quitting speaking.</p>
+                                        </div>
+
+                                        <div class="read-more-btn">
+                                            <a class="" href="#">Read More</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-btn">
+                                        <a class='switch-btn'>&lt;</a>
+                                        <a class='switch-btn'>&gt;</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row product-info">
-                                <img class="product-img" src="img/products/hyperion-product-img-26.jpg"
-                                    alt="Product img">
-                                <div class="col-auto">
-                                    <p>Eta Lite - Gas Stove</p>
-                                    <p class="price">$ 111.96</p>
-                                    <p class="old-price">$ 139.95</p>
-                                    <a href="#">View More →</a>
-                                </div>
-                            </div>
-                            <div class="row product-info">
-                                <img class="product-img" src="img/products/hyperion-product-img-26.jpg"
-                                    alt="Product img">
-                                <div class="col-auto">
-                                    <p>Eta Lite - Gas Stove</p>
-                                    <p class="price">$ 111.96</p>
-                                    <p class="old-price">$ 139.95</p>
-                                    <a href="#">View More →</a>
+
+                                <div class="col-6 scheme-dark">
+                                    <div class="row">
+                                        <div class="col-fixed">
+                                            <div class="product-img">
+                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                            </div>
+
+                                            <div class="product-content">
+                                                <a href="#">Eta Lite - Gas Stove</a>
+                                                <p class="price">$ 111.96</p>
+                                                <p class="old-price">$ 139.95</p>
+                                                <a class="view-more" href="#">View More →</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-fixed">
+                                            <div class="product-img">
+                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                            </div>
+
+                                            <div class="product-content">
+                                                <p>Eta Lite - Gas Stove</p>
+                                                <p class="price">$ 111.96</p>
+                                                <p class="old-price">$ 139.95</p>
+                                                <a class="view-more" href="#">View More →</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-fixed">
+                                            <div class="product-img">
+                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                            </div>
+
+                                            <div class="product-content">
+                                                <p>Eta Lite - Gas Stove</p>
+                                                <p class="price">$ 111.96</p>
+                                                <p class="old-price">$ 139.95</p>
+                                                <a class="view-more" href="#">View More →</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -200,4 +267,66 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="promo-baner scheme-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="promo-bg">
+                            <img class="promo-bg" src="img/blog/home-blog/blog-1.png" alt="">
+                            <div class="promo-content">
+                                <p class="title">Laptops 2021</p>
+                                <p class="subtitle">
+                                    Court heard which up above hoped grave do answer.
+                                </p>
+                                <a href="#" class="view-more">
+                                    View More →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="promo-bg">
+                            <img class="promo-bg" src="img/blog/home-blog/blog-2.png" alt="">
+                            <div class="promo-content">
+                                <p class="title">Laptops 2021</p>
+                                <p class="subtitle">
+                                    Court heard which up above hoped grave do answer.
+                                </p>
+                                <a href="#" class="view-more">
+                                    View More →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="promo-bg">
+                            <img class="promo-bg" src="img/blog/home-blog/blog-3.png" alt="">
+                            <div class="promo-content">
+                                <p class="title">Laptops 2021</p>
+                                <p class="subtitle">
+                                    Court heard which up above hoped grave do answer.
+                                </p>
+                                <a href="#" class="view-more">
+                                    View More →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="promo-bg">
+                            <img class="promo-bg" src="img/blog/home-blog/blog-4.png" alt="">
+                            <div class="promo-content">
+                                <p class="title">Laptops 2021</p>
+                                <p class="subtitle">
+                                    Court heard which up above hoped grave do answer.
+                                </p>
+                                <a href="#" class="view-more">
+                                    View More →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
