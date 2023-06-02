@@ -2,6 +2,30 @@
 // @import "old-style.scss";
 
 /* Glogal options */
+.hot {
+    position: relative;
+
+    ::after {
+        position: absolute;
+        content: "Hot";
+        color: white;
+        background: #d23336;
+        width: 65px;
+        text-align: center;
+        top: 10px;
+        left: 20px;
+    }
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.price {
+    color: #1169b6;
+}
+
 .title {
     font-size: 25px;
 }
@@ -17,6 +41,23 @@
 .view-more {
     font-weight: 700;
     color: black;
+}
+
+.row {
+    position: relative;
+
+    [class^="btn-"] {
+        position: absolute;
+        top: 50%;
+    }
+
+    .btn-right {
+        left: 100%;
+    }
+
+    .btn-left {
+        right: 100%;
+    }
 }
 
 .nav {
@@ -167,14 +208,6 @@
         filter: invert(100%);
     }
 
-    .old-price {
-        color: gray;
-        text-decoration: line-through;
-    }
-
-    .price {
-        color: #1169b6;
-    }
 }
 
 .style-bordered {
@@ -391,7 +424,13 @@
 
 
 // Content
-
+.switch-btn {
+    max-height: 10px;
+    padding: 7px 10px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
 
 
 .content {
@@ -453,15 +492,7 @@
     .slider-btn {
         position: absolute;
         bottom: 70px;
-        left: 100px;
-
-
-        .switch-btn {
-            padding: 7px 10px;
-            border-radius: 50%;
-            background: white;
-            color: black;
-        }
+        left: 10px;
     }
 
     .slider-description {
@@ -477,6 +508,7 @@
 
         p {
             opacity: 70%;
+            margin-bottom: 10px;
         }
 
         .read-more-btn {
@@ -500,6 +532,7 @@
 .promo-baner {
     .promo-bg {
         position: relative;
+
         & img {
             max-width: 100%;
         }
@@ -516,5 +549,114 @@
             margin-bottom: 20px;
         }
     }
+
+}
+
+// Bestsellers
+
+.bestsellers {
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+
+    .col-3 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        margin-left: 10px;
+    }
+
+    .bestseller-img {
+        border-radius: 5px;
+        max-width: 100%;
+    }
+}
+
+// Top brands
+
+.top-brands {
+    .crown-icon {
+        margin-right: 20px;
+    }
+
+    position: relative;
+    z-index: 999;
+
+    .top-brands-bg {
+        position: absolute;
+        background: no-repeat url("../../img/brands/top-brands-heading.png");
+        background-position: center;
+        min-height: 200px;
+        width: 100%;
+        bottom: 60%;
+        left: 0;
+        margin: 0 auto;
+
+        .top-brands-heading {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+            display: flex;
+
+            > :last-child {
+                justify-content: flex-end;
+            }
+
+            & .col-auto {
+                display: flex;
+
+            }
+        }
+    }
+
+    .container {
+
+        & .row {
+            & .col-auto .brand {
+                background: white;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+    }
+    margin-bottom: 50px;
+}
+
+// Hot category
+
+.hot-category {
+    .col-3 {
+        display: flex;
+
+        align-items: center;
+        .title {
+            margin-left: 10px;
+        }
+        margin-bottom: 20px;
+    }
+    .col-auto .col-4{
+        background-color: white;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    .col-fixed {
+        max-height: 100%;
+
+        .description {
+            border: 1px solid gray;
+            border-radius: 5px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 
 }
