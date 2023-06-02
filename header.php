@@ -240,7 +240,7 @@
                                                 <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
                                             </div>
 
-                                            <div class="product-content">
+                                            <div class="product-content ">
                                                 <p>Eta Lite - Gas Stove</p>
                                                 <p class="price">$ 111.96</p>
                                                 <p class="old-price">$ 139.95</p>
@@ -274,7 +274,7 @@
                         <div class="promo-bg">
                             <img class="promo-bg" src="img/blog/home-blog/blog-1.png" alt="">
                             <div class="promo-content">
-                                <p class="title">Laptops 2021</p>
+                                <span class="title">Laptops 2021</span>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -330,3 +330,240 @@
                 </div>
             </div>
         </div>
+        <div class="bestsellers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
+                        <span class="title">Bestseller</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto hot">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-1.jpg"
+                            alt="bestseller's img">
+                        <p>Samsung Galaxy S20 Ultra</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-2.jpg"
+                            alt="bestseller's img">
+                        <p>Xiaomi AirDots</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-3.jpg"
+                            alt="bestseller's img">
+                        <p>Carl Hansen & Søn Chair</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="col-auto hot">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-4.jpg"
+                            alt="bestseller's img">
+                        <p>Mi Robot Vacuum Cleaner 1S</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="col-auto">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-5.jpg"
+                            alt="bestseller's img">
+                        <p>Light Tember</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="col-auto hot">
+                        <img class="bestseller-img" src="img/products/hyperion-product-img-6.jpg"
+                            alt="bestseller's img">
+                        <p>Jurghans Max Bill</p>
+                        <p class="price">$ 1300.00</p>
+                    </div>
+                    <div class="btn-right">
+                        <a href="#" class='switch-btn'>&gt;</a>
+                    </div>
+                    <div class="btn-left">
+                        <a href="#" class='switch-btn'>&lt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-brands">
+            <div class="top-brands-bg scheme-light">
+                <div class="top-brands-heading">
+                    <div class="col-auto">
+                        <img class="crown-icon" src="img/svg/hyperion-crown.svg" alt="crown">
+                        <span class="title">Top Brands</span>
+                    </div>
+                    <div class="col-auto">
+                        <a href="#">View All →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="brand">
+                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                            <p class="title">Xiaomi</p>
+                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                        </div>
+                    </div>
+
+                    <div class="btn-left">
+                        <a href="#" class='switch-btn'>&lt;</a>
+                    </div>
+                    <div class="btn-right">
+                        <a href="#" class='switch-btn'>&gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hot-category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/svg/hyperion-booster.svg" alt="Hot Category icon">
+                        <span class="title">Hot Category</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-fixed">
+                        <div class="btn">
+                        
+                        </div>
+                        <div class="description">
+                            <p class="subtitle">
+                                20% discount on children's toys
+                            </p>
+                            <span class="title">
+                                More And Higher Discounts On Toys
+                            </span>
+                            <a href="#" class="btn">To Shop</a>
+                        </div>
+                    </div>
+                    <div class="row wrap">
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="title">Smartphones</p>
+                                        <a href="#">View More →</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
