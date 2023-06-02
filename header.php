@@ -557,7 +557,38 @@
                     </div>
 
                 </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+        <div class="recomend-products">
+            <div class="container">
+                
+            </div>
+        </div>
         </div>
 
 
