@@ -464,19 +464,25 @@
                 </div>
 
                 <div class="row no-wrap">
-                    <div class="col-fixed hot-banner">
-                        <div class="btn">
+                    <div class="col-fixed">
+                        <div class="hot-banner-bg scheme-light">
+                            <div class="switch-btn...">
 
+                            </div>
+                            <div class="description limit-out">
+                                <p class="subtitle">
+                                    20% discount on children's toys
+                                </p>
+                                <span class="title">
+                                    More And Higher Discounts On Toys
+                                </span>
+                                <div class="scheme-dark">>
+                                    <a href="#" class="btn">To Shop</a>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="description">
-                            <p class="subtitle">
-                                20% discount on children's toys
-                            </p>
-                            <span class="title">
-                                More And Higher Discounts On Toys
-                            </span>
-                            <a href="#" class="btn">To Shop</a>
-                        </div>
+
                     </div>
                     <div class="col-auto">
                         <div class="row">
@@ -540,31 +546,31 @@
                     </div>
                 </div>
                 <div class="row">
-                        <div class="col-auto">
-                            <div class="col-2">1 .</div>
-                            <div class="col-10">
-                                <span class="title">Products for everyone</span>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="col-2">1 .</div>
-                            <div class="col-10">
-                                <span class="title">Products for everyone</span>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="col-2">1 .</div>
-                            <div class="col-10">
-                                <span class="title">Products for everyone</span>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="col-2">1 .</div>
-                            <div class="col-10">
-                                <span class="title">Products for everyone</span>
-                            </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
                         </div>
                     </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="col-2">1 .</div>
+                        <div class="col-10">
+                            <span class="title">Products for everyone</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="recomend-products">

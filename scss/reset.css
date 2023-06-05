@@ -47,4 +47,8 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+span {
+  padding: 5px;
 }/*# sourceMappingURL=reset.css.map */
