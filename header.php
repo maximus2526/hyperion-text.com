@@ -17,8 +17,7 @@
                     <div class="col-auto">
                         <ul class="nav">
                             <li class="subtitle">Call Now: <a href="tel:+035527171070">(+035) 527-1710-70</a></li>
-                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
-                            </li>
+                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a></li>
                         </ul>
                     </div>
                     <div class="col-auto col-right">
