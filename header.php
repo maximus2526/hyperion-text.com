@@ -97,11 +97,11 @@
                                 </div>
                             </div>
                             <div class="dropdown always-open">
-                                <div class="nav vertical scheme-dark ">
-                                    <ul>
+                                <div class="scheme-dark">
+                                    <ul class="vertical nav display-flex column">
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="left-side">
+                                                <span class="display-flex content-center">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-dress.svg" alt="">
                                                     <p>Women's clothing</p>
@@ -111,7 +111,7 @@
                                         </li>
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="left-side">
+                                                <span class="display-flex content-center">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-volunteer.svg" alt="">
                                                     <p>Mans clothing</p>
@@ -121,7 +121,7 @@
                                         </li>
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="left-side">
+                                                <span class="display-flex content-center">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-smartphone.svg" alt="">
                                                     <p>Phones and accessories</p>
@@ -465,18 +465,18 @@
 
                 <div class="row no-wrap">
                     <div class="col-fixed">
-                        <div class="hot-banner-bg scheme-light">
+                        <div class="hot-banner-bg scheme-light ">
                             <div class="switch-btn...">
 
                             </div>
-                            <div class="description limit-out">
+                            <div class="description display-flex limit-out">
                                 <p class="subtitle">
                                     20% discount on children's toys
                                 </p>
                                 <span class="title">
                                     More And Higher Discounts On Toys
                                 </span>
-                                <div class="scheme-dark">>
+                                <div class="scheme-dark">
                                     <a href="#" class="btn">To Shop</a>
                                 </div>
 
@@ -485,9 +485,9 @@
 
                     </div>
                     <div class="col-auto">
-                        <div class="row">
+                        <div class="row justify-between gap">
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -496,7 +496,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -505,7 +505,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -514,7 +514,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -523,7 +523,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -532,7 +532,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row">
+                                <div class="row no-wrap">
                                     <div class="col-2">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
@@ -545,234 +545,326 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="col-2">1 .</div>
-                        <div class="col-10">
-                            <span class="title">Products for everyone</span>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="col-2">1 .</div>
-                        <div class="col-10">
-                            <span class="title">Products for everyone</span>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="col-2">1 .</div>
-                        <div class="col-10">
-                            <span class="title">Products for everyone</span>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="col-2">1 .</div>
-                        <div class="col-10">
-                            <span class="title">Products for everyone</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="recomend-products">
-                <div class="container">
-                    <div class="row no-wrap">
-                        <div class="col-4">
-                            <div class="discount">
-                                <div class="info-block">
-                                    <p class="subtitle">Shoes discount</p>
-                                    <p class="title">Catch A Discount</p>
-                                    <div class="counter display-flex">
-                                        <div class="data display-flex content-center column">
-                                            <p class="time">02</p>
-                                            <p class="subtitle">DAYS</p>
-                                        </div>
-                                        <div class="data display-flex content-center column">
-                                            <p class="time">12</p>
-                                            <p class="subtitle">HR</p>
-                                        </div>
-                                        <div class="data display-flex content-center column">
-                                            <p class="time">32</p>
-                                            <p class="subtitle">MIN</p>
-                                        </div>
-                                        <div class="data display-flex content-center column">
-                                            <p class="time">54</p>
-                                            <p class="subtitle">SC</p>
-                                        </div>
-                                    </div>
-                                    <a href="#" class="read-more-btn">Read More</a>
-                                </div>
-                            </div>
-                            <div class="new-collection">
-                                <div class="info-block">
-                                    <p class="subtitle">For your home</p>
-                                    <p class="title">New Decore Collection</p>
-                                    <p class="text">She dinner she our horses remember depend</p>
-                                    <a href="#" class="read-more-btn">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <div class="row content-center">
-                                <div class="col-6 title display-flex">
-                                    <img src="img/svg/hyperion-like.svg" alt="Like sign">
-                                    <p>Recomend Products</p>
-                                </div>
-                                <div class="col-6">
-                                    <ul class="nav">
-                                        <li><span><a class="active" href="#">New in</a></span></li>
-                                        <li><a href="#">Bestsellers</a></li>
-                                        <li><a href="#">Comming Soon</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row products content-center">
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                                <div class="col-3 hot">
-                                    <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                        alt="product's img">
-                                    <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                    <p class="price">$ 1300.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="our-blog">
-                <div class="container">
+                <div class="slogans">
                     <div class="row">
-                        <div class="col-6">
-                            <p class="subtitle">Subtitle for this title</p>
-                            <p class="title">Our Blog</p>
+                        <div class="col-auto">
+                            <div class="row no-wrap content-center">
+                                <div class="col-2">
+                                    <span class="big-num">1.</span>
+                                </div>
+                                <div class="col-10">
+                                    <span class="title">Big Choice</span>
+                                    <p class="subtitle">Products for everyone</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-6 col-right content-center display-flex">
-                            <a href="#" class='switch-btn'>&lt;</a>
-                            <a href="#" class='switch-btn'>&gt;</a>
+                        <div class="col-auto">
+                            <div class="row no-wrap content-center">
+                                <div class="col-2"><span class="big-num">2.</span></div>
+                                <div class="col-10">
+                                    <span class="title">Big Choice</span>
+                                    <p class="subtitle">Products for everyone</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="row no-wrap content-center">
+                                <div class="col-2"><span class="big-num">3.</span></div>
+                                <div class="col-10">
+                                    <span class="title">Big Choice</span>
+                                    <p class="subtitle">Products for everyone</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="row no-wrap content-center">
+                                <div class="col-2"><span class="big-num">4.</span></div>
+                                <div class="col-10">
+                                    <span class="title">Big Choice</span>
+                                    <p class="subtitle">Products for everyone</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="recomend-products">
+            <div class="container">
+                <div class="row no-wrap">
+                    <div class="col-4">
+                        <div class="discount">
+                            <div class="info-block">
+                                <p class="subtitle">Shoes discount</p>
+                                <p class="title">Catch A Discount</p>
+                                <div class="counter display-flex">
+                                    <div class="data display-flex content-center column">
+                                        <p class="time">02</p>
+                                        <p class="subtitle">DAYS</p>
+                                    </div>
+                                    <div class="data display-flex content-center column">
+                                        <p class="time">12</p>
+                                        <p class="subtitle">HR</p>
+                                    </div>
+                                    <div class="data display-flex content-center column">
+                                        <p class="time">32</p>
+                                        <p class="subtitle">MIN</p>
+                                    </div>
+                                    <div class="data display-flex content-center column">
+                                        <p class="time">54</p>
+                                        <p class="subtitle">SC</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+                        <div class="new-collection">
+                            <div class="info-block">
+                                <p class="subtitle">For your home</p>
+                                <p class="title">New Decore Collection</p>
+                                <p class="text">She dinner she our horses remember depend</p>
+                                <a href="#" class="read-more-btn">Read More</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <article class="col-3">
-                            <div class="article-block ">
-                                <img src="img/blog/hyperion-blog-1.jpg" alt="">
-                                <div class="article-content limit-out">
-                                    <p class="title">Had Denoting Properly Jointure You.</p>
-                                    <p class="subtitle">
-                                        Exeter longer wisdom gay nor design age weather to entered norland no...
-                                    </p>
-                                </div>
-                                <div class="author display-flex limit-out">
-                                    <div class="display-flex content-center">
-                                        <img src="temp-img/svg/account.svg" alt="">
-                                        <span>Mr. Mackay</span>
-                                    </div>
-                                    <div class="display-flex content-center text-right">
-                                        <p class="subtitle">18.07.2023</p>
-                                    </div>
-                                </div>
+                    <div class="col-8">
+                        <div class="row content-center">
+                            <div class="col-6 title display-flex">
+                                <img src="img/svg/hyperion-like.svg" alt="Like sign">
+                                <p>Recomend Products</p>
                             </div>
-                        </article>
-                        <article class="col-3">
-                            <div class="article-block">
-                                <img src="img/blog/hyperion-blog-2.jpg" alt="">
-                                <div class="article-content limit-out">
-                                    <p class="title">Had Denoting Properly Jointure You.</p>
-                                    <p class="subtitle">
-                                        Exeter longer wisdom gay nor design age weather to entered norland no...
-                                    </p>
-                                </div>
-                                <div class="author display-flex limit-out">
-                                    <div class="display-flex content-center">
-                                        <img src="temp-img/svg/account.svg" alt="">
-                                        <span>Mr. Mackay</span>
-                                    </div>
-                                    <div class="display-flex content-center text-right">
-                                        <p class="subtitle">18.07.2023</p>
-                                    </div>
-                                </div>
+                            <div class="col-6">
+                                <ul class="nav">
+                                    <li><span><a class="active" href="#">New in</a></span></li>
+                                    <li><a href="#">Bestsellers</a></li>
+                                    <li><a href="#">Comming Soon</a></li>
+                                </ul>
                             </div>
-                        </article>
-                        <article class="col-3">
-                            <div class="article-block">
-                                <img src="img/blog/hyperion-blog-3.jpg" alt="">
-                                <div class="article-content limit-out">
-                                    <p class="title">Had Denoting Properly Jointure You.</p>
-                                    <p class="subtitle">
-                                        Exeter longer wisdom gay nor design age weather to entered norland no...
-                                    </p>
-                                </div>
-                                <div class="author display-flex limit-out">
-                                    <div class="display-flex content-center">
-                                        <img src="temp-img/svg/account.svg" alt="">
-                                        <span>Mr. Mackay</span>
-                                    </div>
-                                    <div class="display-flex content-center text-right">
-                                        <p class="subtitle">18.07.2023</p>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="row products content-center">
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
                             </div>
-                        </article>
-                        <article class="col-3">
-                            <div class="article-block">
-                                <img src="img/blog/hyperion-blog-4.jpg" alt="">
-                                <div class="article-content limit-out">
-                                    <p class="title">Had Denoting Properly Jointure You.</p>
-                                    <p class="subtitle">
-                                        Exeter longer wisdom gay nor design age weather to entered norland no...
-                                    </p>
-                                </div>
-                                <div class="author display-flex limit-out">
-                                    <div class="display-flex content-center">
-                                        <img src="temp-img/svg/account.svg" alt="">
-                                        <span>Mr. Mackay</span>
-                                    </div>
-                                    <div class="display-flex content-center text-right">
-                                        <p class="subtitle">18.07.2023</p>
-                                    </div>
-                                </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
                             </div>
-                        </article>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                            <div class="col-3 hot">
+                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
+                                    alt="product's img">
+                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
+                                <p class="price">$ 1300.00</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="our-blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="subtitle">Subtitle for this title</p>
+                        <p class="title">Our Blog</p>
+                    </div>
+                    <div class="col-6 col-right content-center display-flex">
+                        <a href="#" class='switch-btn'>&lt;</a>
+                        <a href="#" class='switch-btn'>&gt;</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <article class="col-3">
+                        <div class="article-block ">
+                            <img src="img/blog/hyperion-blog-1.jpg" alt="">
+                            <div class="article-content limit-out">
+                                <p class="title">Had Denoting Properly Jointure You.</p>
+                                <p class="subtitle ">
+                                    Exeter longer wisdom gay nor design age weather to entered norland no...
+                                </p>
+                            </div>
+                            <div class="author display-flex limit-out">
+                                <div class="display-flex content-center">
+                                    <img src="temp-img/svg/account.svg" alt="">
+                                    <span>Mr. Mackay</span>
+                                </div>
+                                <div class="display-flex content-center text-right">
+                                    <p class="subtitle">18.07.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-3">
+                        <div class="article-block">
+                            <img src="img/blog/hyperion-blog-2.jpg" alt="">
+                            <div class="article-content limit-out">
+                                <p class="title">Had Denoting Properly Jointure You.</p>
+                                <p class="subtitle">
+                                    Exeter longer wisdom gay nor design age weather to entered norland no...
+                                </p>
+                            </div>
+                            <div class="author display-flex limit-out">
+                                <div class="display-flex content-center">
+                                    <img src="temp-img/svg/account.svg" alt="">
+                                    <span>Mr. Mackay</span>
+                                </div>
+                                <div class="display-flex content-center text-right">
+                                    <p class="subtitle">18.07.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-3">
+                        <div class="article-block">
+                            <img src="img/blog/hyperion-blog-3.jpg" alt="">
+                            <div class="article-content limit-out">
+                                <p class="title">Had Denoting Properly Jointure You.</p>
+                                <p class="subtitle">
+                                    Exeter longer wisdom gay nor design age weather to entered norland no...
+                                </p>
+                            </div>
+                            <div class="author display-flex limit-out">
+                                <div class="display-flex content-center">
+                                    <img src="temp-img/svg/account.svg" alt="">
+                                    <span>Mr. Mackay</span>
+                                </div>
+                                <div class="display-flex content-center text-right">
+                                    <p class="subtitle">18.07.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-3">
+                        <div class="article-block">
+                            <img src="img/blog/hyperion-blog-4.jpg" alt="">
+                            <div class="article-content limit-out">
+                                <p class="title">Had Denoting Properly Jointure You.</p>
+                                <p class="subtitle">
+                                    Exeter longer wisdom gay nor design age weather to entered norland no...
+                                </p>
+                            </div>
+                            <div class="author display-flex limit-out">
+                                <div class="display-flex content-center">
+                                    <img src="temp-img/svg/account.svg" alt="">
+                                    <span>Mr. Mackay</span>
+                                </div>
+                                <div class="display-flex content-center text-right">
+                                    <p class="subtitle">18.07.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="subscribe-content display-flex align-center gap">
+                        <img src="img/svg/hyperion-subscribe-icon.svg" alt="">
+                        <div class="subscribe-description">
+                            <p class="title">Subscribe Us Now And Get Discount 10%</p>
+                            <p class="subtitle">Will be used in accordance with our Privacy Policy</p>
+                        </div>
+                        <form class="search-form display-flex">
+                            <div class="search-field">
+                                <input placeholder="Your Email Address" type="text">
+                            </div>
+
+                            <button class="search-button" type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="infoboxes">
+            <div class="container">
+                <div class="row no-wrap">
+  
+                    <div class="col-auto">
+                        <img class="info-img" src="img/svg/hyperion-ferry-boat.svg" alt="">
+                        <div class="col-6">
+                            <div class="info">
+                                <p class="title">Free Shipping</p>
+                                <p class="subtitle">When ordering above $100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img class="info-img" src="img/svg/hyperion-shield.svg" alt="">
+                        <div class="col-6">
+
+                            <div class="info">
+                                <p class="title">Safe Shopping</p>
+                                <p class="subtitle">Encypted payment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <img class="info-img" src="img/svg/hyperion-money.svg" alt="">
+
+                        <div class="col-6">
+                            <div class="info">
+                                <p class="title">Online Payment</p>
+                                <p class="subtitle">Support for multiple services</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-auto">
+                        <img class="info-img" src="img/svg/hyperion-customer-service.svg" alt="">
+                        <div class="col-6">
+
+                            <div class="info">
+                                <p class="title">24/7 Support</p>
+                                <p class="subtitle">Ready to answer questions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

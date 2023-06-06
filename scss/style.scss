@@ -3,6 +3,8 @@
 
 /* Glogal options */
 
+
+
 .counter {
     gap: 5px;
 
@@ -29,6 +31,23 @@
     align-items: center;
     justify-content: center;
 }
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-around;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 
 .column {
     flex-direction: column;
@@ -89,6 +108,7 @@
 }
 
 
+
 .old-price {
     color: gray;
     text-decoration: line-through;
@@ -113,6 +133,11 @@
 .view-more {
     font-weight: 700;
     color: black;
+}
+
+.big-num {
+    font-size: 50px;
+    color: #1169b6;
 }
 
 .row {
@@ -146,29 +171,26 @@
 }
 
 .vertical {
+    gap: 0;
     & li {
         margin-right: 0;
-        display: block;
         width: 100%;
         border-bottom: 1px solid #f5f5f5;
 
-
         & a {
             display: flex;
-            align-items: center;
-            padding: 20px 0;
-
+            height: 100%;
+            width: 100%;
+            padding: 15px 0;
             & span {
                 margin-left: 20px;
+            }
+            &:hover {
+                background: #dddddd;
             }
 
         }
 
-
-
-        a:hover {
-            background: #858383;
-        }
     }
 
     .has-dropdown-horizontal {
@@ -182,11 +204,6 @@
                 p {
                     margin-left: 20px;
                 }
-            }
-
-            .left-side {
-                display: flex;
-                align-items: center;
             }
         }
 
@@ -382,6 +399,13 @@
     flex-basis: calc((100% / 12) * 10);
 }
 
+.col-11 {
+    flex-basis: calc((100% / 12) * 10);
+}
+
+.col-12 {
+    flex-basis: calc((100% / 12) * 10);
+}
 // HEADER
 
 
@@ -485,7 +509,7 @@
 
     .dropdown {
         position: absolute;
-        display: block;
+        z-index: 999;
         top: 100%;
         left: 0;
         right: 0;
@@ -507,11 +531,12 @@
 
 .slider-block {
     margin-bottom: 20px;
+    margin-left: 35px;
 }
 
 .slider {
     height: calc(100% - 20px);
-
+    width: calc(100% - 20px);
     >.row {
 
         height: 100%;
@@ -699,6 +724,12 @@
 // Hot category
 
 .hot-category {
+    padding: 40px 0;
+    margin-bottom: 40px;
+    background: no-repeat url("../../img/categories/hyperion-category-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     .hot-banner-bg {
         background: no-repeat url("../../img/hyperion-banner-5.jpg");
         background-size: cover;
@@ -727,20 +758,27 @@
         max-height: 100%;
 
         .description {
-            border-radius: 5px;
-            height: 100%;
-            display: flex;
+            .title {
+                padding-left: 0;
+                margin-bottom: 10px;
+            }
             flex-direction: column;
+            border-radius: 5px;
+            height: 80%;
+            justify-content: flex-end;
         }
     }
 
     .btn {
+        margin-top: 20px;
         padding: 10px 15px;
         background: #ffffff;
         border-radius: 5px;
     }
 
-
+    .slogans {
+        margin-top: 40px;
+    }
 }
 
 
@@ -831,9 +869,29 @@ article {
 
     }
 
+
     .author span {
         margin-left: 10px;
     }
+
+    margin-bottom: 50px;
 }
 
+
 // FOOTER
+
+
+// subscribe 
+.subscribe {
+    background: no-repeat url('../../img/hyperion-subscribe-bg.jpg');
+    background-size: cover;
+    padding: 50px 0;
+    .title {
+        max-width: 300px;
+    }
+    .search-button {
+        height: 40px;
+        width: 135px;
+    }
+
+}
