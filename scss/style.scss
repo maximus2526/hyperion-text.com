@@ -44,6 +44,7 @@
     gap: 20px;
 }
 
+
 .justify-center {
     justify-content: center;
 }
@@ -172,6 +173,7 @@
 
 .vertical {
     gap: 0;
+
     & li {
         margin-right: 0;
         width: 100%;
@@ -182,9 +184,11 @@
             height: 100%;
             width: 100%;
             padding: 15px 0;
+
             & span {
                 margin-left: 20px;
             }
+
             &:hover {
                 background: #dddddd;
             }
@@ -406,6 +410,7 @@
 .col-12 {
     flex-basis: calc((100% / 12) * 10);
 }
+
 // HEADER
 
 
@@ -537,6 +542,7 @@
 .slider {
     height: calc(100% - 20px);
     width: calc(100% - 20px);
+
     >.row {
 
         height: 100%;
@@ -730,6 +736,7 @@
     background-size: cover;
     width: 100%;
     height: 100%;
+
     .hot-banner-bg {
         background: no-repeat url("../../img/hyperion-banner-5.jpg");
         background-size: cover;
@@ -762,6 +769,7 @@
                 padding-left: 0;
                 margin-bottom: 10px;
             }
+
             flex-direction: column;
             border-radius: 5px;
             height: 80%;
@@ -886,12 +894,53 @@ article {
     background: no-repeat url('../../img/hyperion-subscribe-bg.jpg');
     background-size: cover;
     padding: 50px 0;
+    margin-bottom: 20px;
+
     .title {
         max-width: 300px;
     }
+
     .search-button {
         height: 40px;
         width: 135px;
     }
 
+}
+
+// infoboxes
+
+.infoboxes {
+    
+    .container {
+        border-bottom: 1px solid rgb(219, 218, 218);
+        padding: 40px 0;
+    }
+
+    margin-bottom: 20px;
+}
+
+// footer-menu
+
+.footer-menu {
+    margin: 40px 0;
+
+}
+
+// partnership 
+
+.partnership {
+    margin: 40px 0;
+    .col-auto {
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 100%;
+    }
 }

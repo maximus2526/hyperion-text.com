@@ -345,37 +345,37 @@
                     <div class="col-auto hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-1.jpg"
                             alt="bestseller's img">
-                        <p>Samsung Galaxy S20 Ultra</p>
+                        <a href="#">Samsung Galaxy S20 Ultra</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="col-auto">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-2.jpg"
                             alt="bestseller's img">
-                        <p>Xiaomi AirDots</p>
+                        <a href="#">Xiaomi AirDots</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="col-auto">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-3.jpg"
                             alt="bestseller's img">
-                        <p>Carl Hansen & Søn Chair</p>
+                        <a href="#">Carl Hansen & Søn Chair</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="col-auto hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-4.jpg"
                             alt="bestseller's img">
-                        <p>Mi Robot Vacuum Cleaner 1S</p>
+                        <a href="#">Mi Robot Vacuum Cleaner 1S</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="col-auto">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-5.jpg"
                             alt="bestseller's img">
-                        <p>Light Tember</p>
+                        <a href="#">Light Tember</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="col-auto hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-6.jpg"
                             alt="bestseller's img">
-                        <p>Jurghans Max Bill</p>
+                        <a href="#">Jurghans Max Bill</a>
                         <p class="price">$ 1300.00</p>
                     </div>
                     <div class="btn-right">
@@ -798,7 +798,7 @@
         <div class="subscribe">
             <div class="container">
                 <div class="row">
-                    <div class="subscribe-content display-flex align-center gap">
+                    <div class="col-auto display-flex align-center gap">
                         <img src="img/svg/hyperion-subscribe-icon.svg" alt="">
                         <div class="subscribe-description">
                             <p class="title">Subscribe Us Now And Get Discount 10%</p>
@@ -806,7 +806,7 @@
                         </div>
                         <form class="search-form display-flex">
                             <div class="search-field">
-                                <input placeholder="Your Email Address" type="text">
+                                <input placeholder="Your Email Address" type="email">
                             </div>
 
                             <button class="search-button" type="submit">Sign Up</button>
@@ -818,51 +818,164 @@
 
         <div class="infoboxes">
             <div class="container">
-                <div class="row no-wrap">
-  
+                <div class="row no-wrap display-flex">
                     <div class="col-auto">
-                        <img class="info-img" src="img/svg/hyperion-ferry-boat.svg" alt="">
-                        <div class="col-6">
-                            <div class="info">
-                                <p class="title">Free Shipping</p>
-                                <p class="subtitle">When ordering above $100</p>
+                        <div class="row content-center">
+                            <img class="info-img" src="img/svg/hyperion-ferry-boat.svg" alt="">
+                            <div class="col-8">
+                                <div class="info">
+                                    <p class="title">Free Shipping</p>
+                                    <p class="subtitle">When ordering above $100</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-auto">
+                        <div class="row content-center">
+                            <img class="info-img" src="img/svg/hyperion-shield.svg" alt="">
+                            <div class="col-8">
+                                <div class="info">
+                                    <p class="title">Safe Shopping</p>
+                                    <p class="subtitle">Encypted payment</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-auto">
-                        <img class="info-img" src="img/svg/hyperion-shield.svg" alt="">
-                        <div class="col-6">
-
-                            <div class="info">
-                                <p class="title">Safe Shopping</p>
-                                <p class="subtitle">Encypted payment</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <img class="info-img" src="img/svg/hyperion-money.svg" alt="">
-
-                        <div class="col-6">
-                            <div class="info">
-                                <p class="title">Online Payment</p>
-                                <p class="subtitle">Support for multiple services</p>
+                        <div class="row content-center">
+                            <img class="info-img" src="img/svg/hyperion-money.svg" alt="">
+                            <div class="col-8">
+                                <div class="info">
+                                    <p class="title">Online Payment</p>
+                                    <p class="subtitle">Support for multiple services</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-auto">
-                        <img class="info-img" src="img/svg/hyperion-customer-service.svg" alt="">
-                        <div class="col-6">
+                        <div class="row content-center">
+                            <img class="info-img" src="img/svg/hyperion-customer-service.svg" alt="">
+                            <div class="col-8">
 
-                            <div class="info">
-                                <p class="title">24/7 Support</p>
-                                <p class="subtitle">Ready to answer questions</p>
+                                <div class="info">
+                                    <p class="title">24/7 Support</p>
+                                    <p class="subtitle">Ready to answer questions</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="footer-menu scheme-dark">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-4">
+                        <div class="description">
+                            <div class="hyperion-logo">
+                                <img class="logo-img" src="img/svg/hyperion-logo.svg" alt="Hyperion logo">
+                            </div>
+                            <p class="text">
+                                Sentiments two occasional affronting solicitude travelling and one contrasted.
+                                Fortune day out married parties. Happiness remainder joy but earnestly for off.
+                                Took sold add play may none him few.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="title">
+                            Opening Time
+                        </div>
+                        <div class="display-flex column">
+                            <a class="subtitle" href="#">Mon - Fri: 8AM - 10PM</a>
+                            <a class="subtitle" href="#">Sat: 9AM-8PM</a>
+                            <a class="subtitle" href="#">Sun: Closed</a>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="title">
+                            Our Stores
+                        </div>
+                        <div class="display-flex column">
+                            <a class="subtitle" href="#">New York</a>
+                            <a class="subtitle" href="#">London SF</a>
+                            <a class="subtitle" href="#">Cockfosters BP</a>
+                            <a class="subtitle" href="#">Los Angeles</a>
+                        </div>
+
+                    </div>
+                    <div class="col-2">
+                        <div class="title">
+                            Information
+                        </div>
+                        <div class="display-flex column">
+                            <a class="subtitle" href="#">Our Contacts</a>
+                            <a class="subtitle" href="#">Privacy Policy</a>
+                            <a class="subtitle" href="#">Conditions</a>
+                            <a class="subtitle" href="#">FAQs</a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="title">
+                            Our Apps
+                        </div>
+                        <div class="display-flex column">
+                            <a href="#"><img src="img/svg/google-play.svg" alt=""></a>
+                            <a href="#"><img src="img/svg/app-store.svg" alt=""></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="partnership">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-auto display-flex content-center">
+                        <span class="text">Payment System: </span>
+                        <img src="img/svg/footer/payment/Mastercard.svg" alt="">
+                        <img src="img/svg/footer/payment/Visa.svg" alt="">
+                        <img src="img/svg/footer/payment/Apple Pay.svg" alt="">
+                        <img src="img/svg/footer/payment/Google Pay.svg" alt="">
+                    </div>
+                    <div class="col-auto display-flex content-center">
+                        <span class="text">Shipping System:</span>
+                        <img src="img/svg/footer/shipping/dhl.svg" alt="">
+                        <img src="img/svg/footer/shipping/dpd.svg" alt="">
+                        <img src="img/svg/footer/shipping/fedex.svg" alt="">
+                        <img src="img/svg/footer/shipping/paypal.svg" alt="">
+                    </div>
+
+                    <div class="col-auto display-flex content-center">
+                        <span class="text">Our Social links:</span>
+                        <a href=""><img src="img/svg/footer/social/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/svg/footer/social/in.svg" alt=""></a>
+                        <a href=""><img src="img/svg/footer/social/pinterest.svg" alt=""></a>
+                        <a href=""><img src="img/svg/footer/social/telegram.svg" alt=""></a>
+                        <a href=""><img src="img/svg/footer/social/twitter.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="credentials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto">
+                        <p class="subtitle">Hyperion 2021 Created By Name Studio</p>
+                    </div>
+                    
+                    <div class="col-right display-flex sub-title scheme-dark gap">
+                        <a href="#" class="subtitle">Privacy Policy</a>
+                        <a href="#" class="subtitle">Terms and Conditions</a>
+                        <a href="#" class="subtitle">Contact Us</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

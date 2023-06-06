@@ -732,6 +732,7 @@ article .author span {
   background: no-repeat url("../../img/hyperion-subscribe-bg.jpg");
   background-size: cover;
   padding: 50px 0;
+  margin-bottom: 20px;
 }
 .subscribe .title {
   max-width: 300px;
@@ -739,4 +740,29 @@ article .author span {
 .subscribe .search-button {
   height: 40px;
   width: 135px;
+}
+
+.infoboxes {
+  margin-bottom: 20px;
+}
+.infoboxes .container {
+  border-bottom: 1px solid rgb(219, 218, 218);
+  padding: 40px 0;
+}
+
+.footer-menu {
+  margin: 40px 0;
+}
+
+.partnership {
+  margin: 40px 0;
+}
+.partnership .col-auto {
+  gap: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
