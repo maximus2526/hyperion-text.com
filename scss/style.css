@@ -50,7 +50,7 @@ table {
 }
 
 span {
-  padding: 5px;
+  padding: 5px 0;
 }
 
 /* Glogal options */
@@ -81,7 +81,7 @@ span {
   align-items: center;
 }
 
-.justify-between {
+.justify-around {
   justify-content: space-around;
 }
 
@@ -225,7 +225,6 @@ span {
 }
 .vertical .has-dropdown-horizontal a {
   justify-content: space-between;
-  width: inherit;
 }
 .vertical .has-dropdown-horizontal a span {
   margin: 0;
@@ -470,6 +469,9 @@ span {
   right: 0;
   background: white;
 }
+.header-bottom .dropdown a {
+  padding-left: 10px;
+}
 
 .slider-block {
   margin-bottom: 20px;
@@ -630,6 +632,9 @@ span {
   height: 100%;
   border-radius: 5px;
 }
+.hot-category .hot-banner-bg > :first-child {
+  padding: 20px;
+}
 .hot-category .col-3 {
   align-items: center;
   margin-bottom: 20px;
@@ -690,6 +695,7 @@ span {
   margin-bottom: 50px;
 }
 .recomend-products .info-block {
+  padding-top: 20px;
   max-width: 90%;
   margin: 0 auto 0 auto;
 }
@@ -710,6 +716,9 @@ span {
 
 article {
   margin-bottom: 50px;
+}
+article .switch-btn {
+  max-height: none;
 }
 article .article-block {
   background: white;
@@ -759,10 +768,4 @@ article .author span {
 }
 .partnership .col-auto {
   gap: 5px;
-}
-
-@media screen and (min-width: 1024px) {
-  .container {
-    width: 100%;
-  }
 }/*# sourceMappingURL=style.css.map */

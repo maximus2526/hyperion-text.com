@@ -101,7 +101,7 @@
                                     <ul class="vertical nav display-flex column">
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="display-flex content-center">
+                                                <span class="display-flex">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-dress.svg" alt="">
                                                     <p>Women's clothing</p>
@@ -111,7 +111,7 @@
                                         </li>
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="display-flex content-center">
+                                                <span class="display-flex">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-volunteer.svg" alt="">
                                                     <p>Mans clothing</p>
@@ -121,7 +121,7 @@
                                         </li>
                                         <li class="has-dropdown-horizontal">
                                             <a href="#">
-                                                <span class="display-flex content-center">
+                                                <span class="display-flex">
                                                     <img class="item-icon"
                                                         src="img/svg/category-menu/hyperion-line-smartphone.svg" alt="">
                                                     <p>Phones and accessories</p>
@@ -466,8 +466,9 @@
                 <div class="row no-wrap">
                     <div class="col-fixed">
                         <div class="hot-banner-bg scheme-light ">
-                            <div class="switch-btn...">
-
+                            <div class="display-flex gap">
+                                <a href="#"><img src="img/svg/arrow/left.svg" alt=""></a>
+                                <a href="#"><img src="img/svg/arrow/right.svg" alt=""></a>
                             </div>
                             <div class="description display-flex limit-out">
                                 <p class="subtitle">
@@ -485,7 +486,7 @@
 
                     </div>
                     <div class="col-auto">
-                        <div class="row justify-between gap">
+                        <div class="row justify-around gap">
                             <div class="col-4">
                                 <div class="row no-wrap">
                                     <div class="col-2">
@@ -968,7 +969,7 @@
                     <div class="col-auto">
                         <p class="subtitle">Hyperion 2021 Created By Name Studio</p>
                     </div>
-                    
+
                     <div class="col-right display-flex sub-title scheme-dark gap">
                         <a href="#" class="subtitle">Privacy Policy</a>
                         <a href="#" class="subtitle">Terms and Conditions</a>
