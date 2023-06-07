@@ -335,11 +335,9 @@
         </div>
         <div class="bestsellers">
             <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
-                        <span class="title">Bestseller</span>
-                    </div>
+                <div class="block-title display-flex">
+                    <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
+                    <span class="title">Bestseller</span>
                 </div>
                 <div class="row">
                     <div class="col-2 hot">
@@ -456,11 +454,9 @@
         </div>
         <div class="hot-category">
             <div class="container">
-                <div class="row">
-                    <div class="col-3 display-flex">
-                        <img src="img/svg/hyperion-booster.svg" alt="Hot Category icon">
-                        <span class="title">Hot Category</span>
-                    </div>
+                <div class="block-title display-flex">
+                    <img src="img/svg/hyperion-booster.svg" alt="Hot Category">
+                    <span class="title">Hot Category</span>
                 </div>
                 <div class="row">
                     <div class="col-4">
@@ -486,7 +482,6 @@
                     </div>
                     <div class="col-8">
                         <div class="row justify-around">
-
                             <div class="col-4">
                                 <div class="row">
                                     <div class="col-6">
@@ -652,9 +647,12 @@
                     <div class="col-8">
                         <div class="row content-center">
                             <div class="col-6 title display-flex">
-                                <img src="img/svg/hyperion-like.svg" alt="Like sign">
-                                <p>Recomend Products</p>
+                                <div class="block-title display-flex">
+                                    <img src="img/svg/hyperion-like.svg" alt="Hot Category">
+                                    <span class="title">Recomend Products</span>
+                                </div>
                             </div>
+
                             <div class="col-6">
                                 <ul class="nav">
                                     <li><span><a class="active" href="#">New in</a></span></li>
@@ -919,47 +917,48 @@
                         </div>
                     </div>
                     <div class="col-2">
-                        <div class="title">
-                            Opening Time
+                        <div>
+                            <p>Opening Time</p>
                         </div>
-                        <div class="display-flex column">
-                            <a class="subtitle" href="#">Mon - Fri: 8AM - 10PM</a>
-                            <a class="subtitle" href="#">Sat: 9AM-8PM</a>
-                            <a class="subtitle" href="#">Sun: Closed</a>
-                        </div>
+
+                        <ul class="list-menu">
+                            <li><a class="subtitle" href="#">Mon - Fri: 8AM - 10PM</a></li>
+                            <li><a class="subtitle" href="#">Sat: 9AM-8PM</a></li>
+                            <li><a class="subtitle" href="#">Sun: Closed</a></li>
+                        </ul>
 
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            Our Stores
+                            <p>Our Stores</p>
                         </div>
-                        <div class="display-flex column">
-                            <a class="subtitle" href="#">New York</a>
-                            <a class="subtitle" href="#">London SF</a>
-                            <a class="subtitle" href="#">Cockfosters BP</a>
-                            <a class="subtitle" href="#">Los Angeles</a>
-                        </div>
+                        <ul class="list-menu">
+                            <li><a class="subtitle" href="#">New York</a></li>
+                            <li><a class="subtitle" href="#">London SF</a></li>
+                            <li><a class="subtitle" href="#">Cockfosters BP</a></li>
+                            <li><a class="subtitle" href="#">Los Angeles</a></li>
+                        </ul>
 
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            Information
+                            <p>Information</p>
                         </div>
-                        <div class="display-flex column">
-                            <a class="subtitle" href="#">Our Contacts</a>
-                            <a class="subtitle" href="#">Privacy Policy</a>
-                            <a class="subtitle" href="#">Conditions</a>
-                            <a class="subtitle" href="#">FAQs</a>
-                        </div>
+                        <ul class="list-menu">
+                            <li><a class="subtitle" href="#">Our Contacts</a></li>
+                            <li><a class="subtitle" href="#">Privacy Policy</a></li>
+                            <li><a class="subtitle" href="#">Conditions</a></li>
+                            <li><a class="subtitle" href="#">FAQs</a></li>
+                        </ul>
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            Our Apps
+                            <p>Our Apps</p>
                         </div>
-                        <div class="display-flex column">
-                            <a href="#"><img src="img/svg/google-play.svg" alt=""></a>
-                            <a href="#"><img src="img/svg/app-store.svg" alt=""></a>
-                        </div>
+                        <ul class="list-menu">
+                            <li><a href="#"><img src="img/svg/google-play.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/app-store.svg" alt=""></a></li>
+                        </ul>
 
                     </div>
 

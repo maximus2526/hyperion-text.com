@@ -195,6 +195,13 @@ span {
   right: 100%;
 }
 
+.block-title {
+  margin: 20px 0;
+}
+.block-title :last-child {
+  margin-left: 10px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -656,13 +663,6 @@ span {
 }
 .hot-category .hot-banner-bg > :first-child {
   padding: 20px;
-}
-.hot-category .col-3 {
-  align-items: center;
-  margin-bottom: 20px;
-}
-.hot-category .col-3 .title {
-  margin-left: 10px;
 }
 .hot-category .col-auto .col-4 {
   background-color: white;
