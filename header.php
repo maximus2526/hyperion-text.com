@@ -17,7 +17,8 @@
                     <div class="col-auto">
                         <ul class="nav">
                             <li class="subtitle">Call Now: <a href="tel:+035527171070">(+035) 527-1710-70</a></li>
-                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a></li>
+                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-auto col-right">
@@ -178,7 +179,7 @@
                     </div>
                     <div class="col-auto scheme-dark">
                         <ul class="nav">
-                            <li class="has-dropdown"><span><a class="active" href="#">Home</a></span></li>
+                            <li class="has-dropdown"><a href="#"><span class="active">Home</span></a></li>
                             <li class="has-dropdown"><a href="#">Shop</a></li>
                             <li class="has-dropdown"><a href="#">Blog</a></li>
                             <li class="has-dropdown"><a href="#">About us</a></li>
@@ -202,8 +203,8 @@
                     </div>
                     <div class="col-9">
                         <div class="slider">
-                            <div class="row no-wrap">
-                                <div class="col-auto">
+                            <div class="row">
+                                <div class="col-6">
                                     <div class="slider-description scheme-light">
                                         <div>
                                             <p class="subtitle">Subtitle for this title</p>
@@ -271,8 +272,8 @@
         </div>
         <div class="promo-banner scheme-light">
             <div class="container">
-                <div class="row no-wrap">
-                    <div class="col-auto">
+                <div class="row">
+                    <div class="col-3">
                         <div class="promo-bg">
                             <img class="promo-bg" src="img/blog/home-blog/blog-1.png" alt="">
                             <div class="promo-content">
@@ -286,7 +287,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="promo-bg">
                             <img class="promo-bg" src="img/blog/home-blog/blog-2.png" alt="">
                             <div class="promo-content">
@@ -300,7 +301,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="promo-bg">
                             <img class="promo-bg" src="img/blog/home-blog/blog-3.png" alt="">
                             <div class="promo-content">
@@ -314,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="promo-bg">
                             <img class="promo-bg" src="img/blog/home-blog/blog-4.png" alt="">
                             <div class="promo-content">
@@ -334,44 +335,44 @@
         </div>
         <div class="bestsellers">
             <div class="container">
-                <div class="row ">
+                <div class="row">
                     <div class="col-3">
                         <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
                         <span class="title">Bestseller</span>
                     </div>
                 </div>
-                <div class="row no-wrap">
-                    <div class="col-auto hot">
+                <div class="row">
+                    <div class="col-2 hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-1.jpg"
                             alt="bestseller's img">
                         <a href="#">Samsung Galaxy S20 Ultra</a>
                         <p class="price">$ 1300.00</p>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-2.jpg"
                             alt="bestseller's img">
                         <a href="#">Xiaomi AirDots</a>
                         <p class="price">$ 1300.00</p>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-3.jpg"
                             alt="bestseller's img">
                         <a href="#">Carl Hansen & Søn Chair</a>
                         <p class="price">$ 1300.00</p>
                     </div>
-                    <div class="col-auto hot">
+                    <div class="col-2 hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-4.jpg"
                             alt="bestseller's img">
                         <a href="#">Mi Robot Vacuum Cleaner 1S</a>
                         <p class="price">$ 1300.00</p>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-5.jpg"
                             alt="bestseller's img">
                         <a href="#">Light Tember</a>
                         <p class="price">$ 1300.00</p>
                     </div>
-                    <div class="col-auto hot">
+                    <div class="col-2 hot">
                         <img class="bestseller-img" src="img/products/hyperion-product-img-6.jpg"
                             alt="bestseller's img">
                         <a href="#">Jurghans Max Bill</a>
@@ -461,15 +462,14 @@
                         <span class="title">Hot Category</span>
                     </div>
                 </div>
-
-                <div class="row no-wrap">
-                    <div class="col-fixed">
+                <div class="row">
+                    <div class="col-4">
                         <div class="hot-banner-bg scheme-light ">
                             <div class="display-flex gap">
                                 <a href="#"><img src="img/svg/arrow/left.svg" alt=""></a>
                                 <a href="#"><img src="img/svg/arrow/right.svg" alt=""></a>
                             </div>
-                            <div class="description display-flex limit-out">
+                            <div class="description display-flex column limit-out">
                                 <p class="subtitle">
                                     20% discount on children's toys
                                 </p>
@@ -484,71 +484,91 @@
                         </div>
 
                     </div>
-                    <div class="col-auto">
-                        <div class="row justify-around gap">
+                    <div class="col-8">
+                        <div class="row justify-around">
+
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="row no-wrap">
-                                    <div class="col-2">
+                                <div class="row">
+                                    <div class="col-6">
                                         <p class="title">Smartphones</p>
                                         <a href="#">View More →</a>
                                     </div>
-                                    <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    <div class="col-6">
+                                        <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Category img">
+                                    </div>
+
                                 </div>
                             </div>
+
 
 
                         </div>
                     </div>
                 </div>
-                <div class="slogans">
+                <div class="info-blocks">
                     <div class="row">
                         <div class="col-auto">
-                            <div class="row no-wrap content-center">
+                            <div class="row content-center">
                                 <div class="col-2">
                                     <span class="big-num">1.</span>
                                 </div>
@@ -559,7 +579,7 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <div class="row no-wrap content-center">
+                            <div class="row content-center">
                                 <div class="col-2"><span class="big-num">2.</span></div>
                                 <div class="col-10">
                                     <span class="title">Big Choice</span>
@@ -568,7 +588,7 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <div class="row no-wrap content-center">
+                            <div class="row content-center">
                                 <div class="col-2"><span class="big-num">3.</span></div>
                                 <div class="col-10">
                                     <span class="title">Big Choice</span>
@@ -577,7 +597,7 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <div class="row no-wrap content-center">
+                            <div class="row content-center">
                                 <div class="col-2"><span class="big-num">4.</span></div>
                                 <div class="col-10">
                                     <span class="title">Big Choice</span>
@@ -593,7 +613,7 @@
         </div>
         <div class="recomend-products">
             <div class="container">
-                <div class="row no-wrap">
+                <div class="row">
                     <div class="col-4">
                         <div class="discount">
                             <div class="info-block">
@@ -793,8 +813,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
         <div class="subscribe">
             <div class="container">
                 <div class="row">
@@ -815,13 +833,21 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="infoboxes">
+    <footer>
+
+        <div class="info-blocks">
             <div class="container">
-                <div class="row no-wrap display-flex">
-                    <div class="col-auto">
+                <div class="row display-flex">
+                    <div class="col-3">
                         <div class="row content-center">
-                            <img class="info-img" src="img/svg/hyperion-ferry-boat.svg" alt="">
+                            <div class="info-block">
+
+                            </div>
+                            <div class="col-2">
+                                <img class="info-img" src="img/svg/hyperion-ferry-boat.svg" alt="">
+                            </div>
                             <div class="col-8">
                                 <div class="info">
                                     <p class="title">Free Shipping</p>
@@ -831,9 +857,11 @@
                         </div>
 
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="row content-center">
-                            <img class="info-img" src="img/svg/hyperion-shield.svg" alt="">
+                            <div class="col-2">
+                                <img class="info-img" src="img/svg/hyperion-shield.svg" alt="">
+                            </div>
                             <div class="col-8">
                                 <div class="info">
                                     <p class="title">Safe Shopping</p>
@@ -842,9 +870,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="row content-center">
-                            <img class="info-img" src="img/svg/hyperion-money.svg" alt="">
+                            <div class="col-2">
+                                <img class="info-img" src="img/svg/hyperion-money.svg" alt="">
+                            </div>
+
                             <div class="col-8">
                                 <div class="info">
                                     <p class="title">Online Payment</p>
@@ -854,9 +885,12 @@
                         </div>
                     </div>
 
-                    <div class="col-auto">
+                    <div class="col-3">
                         <div class="row content-center">
-                            <img class="info-img" src="img/svg/hyperion-customer-service.svg" alt="">
+
+                            <div class="col-2">
+                                <img class="info-img" src="img/svg/hyperion-customer-service.svg" alt="">
+                            </div>
                             <div class="col-8">
 
                                 <div class="info">
@@ -869,7 +903,6 @@
                 </div>
             </div>
         </div>
-
         <div class="footer-menu scheme-dark">
             <div class="container">
                 <div class="row ">
