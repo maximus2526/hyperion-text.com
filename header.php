@@ -83,7 +83,7 @@
         <div class="header-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-fixe">
                         <div class="browse-categories">
                             <div class="heading scheme-light">
                                 <div class="dropdown-title">
@@ -722,7 +722,7 @@
                         <p class="subtitle">Subtitle for this title</p>
                         <p class="title">Our Blog</p>
                     </div>
-                    <div class="col-6 col-right content-center display-flex">
+                    <div class="col-6 col-right display-flex content-center gap-5">
                         <a href="#" class='switch-btn'>&lt;</a>
                         <a href="#" class='switch-btn'>&gt;</a>
                     </div>
@@ -876,7 +876,7 @@
 
                             <div class="col-8">
                                 <div class="info">
-                                    <p class="title">Online Payment</p>
+                                    <h3 class="title">Online Payment</h3>
                                     <p class="subtitle">Support for multiple services</p>
                                 </div>
                             </div>
@@ -892,7 +892,7 @@
                             <div class="col-8">
 
                                 <div class="info">
-                                    <p class="title">24/7 Support</p>
+                                    <h3 class="title">24/7 Support</h3>
                                     <p class="subtitle">Ready to answer questions</p>
                                 </div>
                             </div>
@@ -918,7 +918,7 @@
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            <p>Opening Time</p>
+                            <h3>Opening Time</h3>
                         </div>
 
                         <ul class="list-menu">
@@ -930,7 +930,7 @@
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            <p>Our Stores</p>
+                            <h3>Our Stores</h3>
                         </div>
                         <ul class="list-menu">
                             <li><a class="subtitle" href="#">New York</a></li>
@@ -942,7 +942,7 @@
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            <p>Information</p>
+                            <h3>Information</h3>
                         </div>
                         <ul class="list-menu">
                             <li><a class="subtitle" href="#">Our Contacts</a></li>
@@ -953,7 +953,7 @@
                     </div>
                     <div class="col-2">
                         <div class="title">
-                            <p>Our Apps</p>
+                            <h3>Our Apps</h3>
                         </div>
                         <ul class="list-menu">
                             <li><a href="#"><img src="img/svg/google-play.svg" alt=""></a></li>
