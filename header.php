@@ -917,7 +917,7 @@
                         </div>
                     </div>
                     <div class="col-2">
-                        <div>
+                        <div class="title">
                             <p>Opening Time</p>
                         </div>
 

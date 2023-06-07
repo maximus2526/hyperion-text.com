@@ -58,6 +58,10 @@ span {
   padding: 50px 0;
 }
 
+.list-menu li {
+  margin-bottom: 15px;
+}
+
 .counter {
   gap: 5px;
 }
