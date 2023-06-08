@@ -83,7 +83,7 @@
         <div class="header-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-fixe">
+                    <div class="col-fixed">
                         <div class="browse-categories">
                             <div class="heading scheme-light">
                                 <div class="dropdown-title">
@@ -195,17 +195,22 @@
         </div>
     </header>
 
-    <div class="content">
+    <div class="content ">
         <div class="slider-block">
             <div class="container">
                 <div class="row">
-                    <div class="col-3 ">
+                    <div class="col-3">
                     </div>
                     <div class="col-9">
-                        <div class="slider">
+                        <div class="slider display-flex content-center">
+                            <div class="slider-bg">
+                                <img src="img/hyperion-slider-1.jpg" alt="">
+                            </div>
                             <div class="row">
                                 <div class="col-6">
                                     <div class="slider-description scheme-light">
+
+                                        
                                         <div>
                                             <p class="subtitle">Subtitle for this title</p>
                                             <h4>Camping & Hiking Products Discount</h4>
@@ -225,42 +230,54 @@
                                 </div>
 
                                 <div class="col-6 scheme-dark">
-                                    <div class="row">
-                                        <div class="col-fixed">
-                                            <div class="product-img">
-                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                    <div class="products">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="product design-horizontal bg-white">
+                                                    <div class="product-img">
+                                                        <img src="img/products/hyperion-product-img-26.jpg"
+                                                            alt="Product img">
+                                                    </div>
+
+                                                    <div class="product-content">
+                                                        <a href="#">Eta Lite - Gas Stove</a>
+                                                        <p class="price">$ 111.96</p>
+                                                        <p class="old-price">$ 139.95</p>
+                                                        <a class="view-more" href="#">View More →</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="product design-horizontal bg-white">
+                                                    <div class="product-img">
+                                                        <img src="img/products/hyperion-product-img-26.jpg"
+                                                            alt="Product img">
+                                                    </div>
+
+                                                    <div class="product-content">
+                                                        <a href="#">Eta Lite - Gas Stove</a>
+                                                        <p class="price">$ 111.96</p>
+                                                        <p class="old-price">$ 139.95</p>
+                                                        <a class="view-more" href="#">View More →</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="product design-horizontal bg-white">
+                                                    <div class="product-img">
+                                                        <img src="img/products/hyperion-product-img-26.jpg"
+                                                            alt="Product img">
+                                                    </div>
+
+                                                    <div class="product-content">
+                                                        <a href="#">Eta Lite - Gas Stove</a>
+                                                        <p class="price">$ 111.96</p>
+                                                        <p class="old-price">$ 139.95</p>
+                                                        <a class="view-more" href="#">View More →</a>
+                                                    </div>
+                                                </div>
                                             </div>
 
-                                            <div class="product-content">
-                                                <a href="#">Eta Lite - Gas Stove</a>
-                                                <p class="price">$ 111.96</p>
-                                                <p class="old-price">$ 139.95</p>
-                                                <a class="view-more" href="#">View More →</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-fixed">
-                                            <div class="product-img">
-                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
-                                            </div>
-
-                                            <div class="product-content ">
-                                                <p>Eta Lite - Gas Stove</p>
-                                                <p class="price">$ 111.96</p>
-                                                <p class="old-price">$ 139.95</p>
-                                                <a class="view-more" href="#">View More →</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-fixed">
-                                            <div class="product-img">
-                                                <img src="img/products/hyperion-product-img-26.jpg" alt="Product img">
-                                            </div>
-
-                                            <div class="product-content">
-                                                <p>Eta Lite - Gas Stove</p>
-                                                <p class="price">$ 111.96</p>
-                                                <p class="old-price">$ 139.95</p>
-                                                <a class="view-more" href="#">View More →</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -274,9 +291,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-3">
-                        <div class="promo-bg">
-                            <img class="promo-bg" src="img/blog/home-blog/blog-1.png" alt="">
-                            <div class="promo-content">
+                        <div class="banner">
+                            <div class="banner-bg">
+                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                            </div>
+
+                            <div class="banner-content">
                                 <span class="title">Laptops 2021</span>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
@@ -288,10 +308,13 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="promo-bg">
-                            <img class="promo-bg" src="img/blog/home-blog/blog-2.png" alt="">
-                            <div class="promo-content">
-                                <p class="title">Laptops 2021</p>
+                        <div class="banner">
+                            <div class="banner-bg">
+                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                            </div>
+
+                            <div class="banner-content">
+                                <span class="title">Laptops 2021</span>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -302,10 +325,13 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="promo-bg">
-                            <img class="promo-bg" src="img/blog/home-blog/blog-3.png" alt="">
-                            <div class="promo-content">
-                                <p class="title">Laptops 2021</p>
+                        <div class="banner">
+                            <div class="banner-bg">
+                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                            </div>
+
+                            <div class="banner-content">
+                                <span class="title">Laptops 2021</span>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -316,10 +342,13 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="promo-bg">
-                            <img class="promo-bg" src="img/blog/home-blog/blog-4.png" alt="">
-                            <div class="promo-content">
-                                <p class="title">Laptops 2021</p>
+                        <div class="banner">
+                            <div class="banner-bg">
+                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                            </div>
+
+                            <div class="banner-content">
+                                <span class="title">Laptops 2021</span>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -330,6 +359,8 @@
                         </div>
                     </div>
 
+
+
                 </div>
             </div>
         </div>
@@ -339,48 +370,106 @@
                     <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
                     <span class="title">Bestseller</span>
                 </div>
-                <div class="row">
-                    <div class="col-2 hot">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-1.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Samsung Galaxy S20 Ultra</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="col-2">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-2.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Xiaomi AirDots</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="col-2">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-3.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Carl Hansen & Søn Chair</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="col-2 hot">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-4.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Mi Robot Vacuum Cleaner 1S</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="col-2">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-5.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Light Tember</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="col-2 hot">
-                        <img class="bestseller-img" src="img/products/hyperion-product-img-6.jpg"
-                            alt="bestseller's img">
-                        <a href="#">Jurghans Max Bill</a>
-                        <p class="price">$ 1300.00</p>
-                    </div>
-                    <div class="btn-right">
-                        <a href="#" class='switch-btn'>&gt;</a>
-                    </div>
-                    <div class="btn-left">
-                        <a href="#" class='switch-btn'>&lt;</a>
+                <div class="products scheme-dark">
+                    <div class="row content-center">
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="product hot">
+                                <div class="product-img">
+                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                </div>
+                                <div class="product-content">
+                                    <div class="product-title">
+                                        <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                    </div>
+                                    <div class="price">
+                                        <p class="price">$ 1300.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="btn-right">
+                            <a href="#" class='switch-btn'>&gt;</a>
+                        </div>
+                        <div class="btn-left">
+                            <a href="#" class='switch-btn'>&lt;</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -401,42 +490,42 @@
             <div class="container">
                 <div class="row">
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand">
+                        <div class="brand bg-white">
                             <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <p class="title">Xiaomi</p>
                             <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
@@ -459,29 +548,34 @@
                     <span class="title">Hot Category</span>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <div class="hot-banner-bg scheme-light ">
-                            <div class="display-flex gap">
-                                <a href="#"><img src="img/svg/arrow/left.svg" alt=""></a>
-                                <a href="#"><img src="img/svg/arrow/right.svg" alt=""></a>
+                    <div class="col-3">
+                        <div class="banner scheme-light">
+                            <div class="banner-bg">
+                                <img src="img/hyperion-banner-5.jpg" alt="">
                             </div>
-                            <div class="description display-flex column limit-out">
-                                <p class="subtitle">
-                                    20% discount on children's toys
-                                </p>
-                                <span class="title">
-                                    More And Higher Discounts On Toys
-                                </span>
-                                <div class="scheme-dark">
-                                    <a href="#" class="btn">To Shop</a>
-                                </div>
 
+                            <div class="banner-content">
+                                <div class="display-flex gap">
+                                    <a href="#"><img src="img/svg/arrow/left.svg" alt=""></a>
+                                    <a href="#"><img src="img/svg/arrow/right.svg" alt=""></a>
+                                </div>
+                                <div class="description display-flex column">
+                                    <p class="subtitle">
+                                        20% discount on children's toys
+                                    </p>
+                                    <span class="title">
+                                        More And Higher Discounts On Toys
+                                    </span>
+                                    <div class="scheme-dark">
+                                        <a href="#" class="btn">To Shop</a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-8">
-                        <div class="row justify-around">
+                    <div class="col-9">
+                        <div class="row">
                             <div class="col-4">
                                 <div class="row">
                                     <div class="col-6">
@@ -661,54 +755,100 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="row products content-center">
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
-                            </div>
-                            <div class="col-3 hot">
-                                <img class="product-img" src="img/products/hyperion-product-img-1.jpg"
-                                    alt="product's img">
-                                <p class="product-title">Samsung Galaxy S20 Ultra</p>
-                                <p class="price">$ 1300.00</p>
+                        <div class="products scheme-dark">
+                            <div class="row content-center">
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="product hot">
+                                        <div class="product-img">
+                                            <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-title">
+                                                <a href="#" class="product-title">Samsung Galaxy S20 Ultra</a>
+                                            </div>
+                                            <div class="price">
+                                                <p class="price">$ 1300.00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
