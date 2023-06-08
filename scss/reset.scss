@@ -10,27 +10,28 @@
 }
 
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
 
 body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
     line-height: 1.6;
 }
 
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+  }
 
-
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 ol,
 ul {
     list-style: none;
@@ -65,4 +66,14 @@ table {
 
 span {
     padding: 5px 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    padding: 0 5px;
 }
