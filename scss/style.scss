@@ -4,6 +4,11 @@
 /* Glogal options */
 
 // Products 
+.btn {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
 
 .products {
     margin-bottom: 20px;
@@ -16,6 +21,7 @@
     .product-img {
         & img {
             max-width: 100%;
+            margin-bottom: 10px;
         }
     }
 
@@ -118,13 +124,8 @@
 
 .switch-btn {
     display: inline-block;
-    text-align: center;
-    vertical-align: middle;
     height: 25px;
     width: 25px;
-    border-radius: 100%;
-    background: white;
-    color: black;
 }
 
 
@@ -163,8 +164,6 @@
 
 .read-more-btn {
     background: #1169b6;
-    border-radius: 5px;
-    padding: 10px 15px;
     color: white;
 
     &:hover {
@@ -367,6 +366,10 @@
     & *::after {
         filter: invert(0%);
     }
+}
+
+.usa {
+    display: inline-block;
 }
 
 .scheme-dark {
@@ -703,7 +706,7 @@
             margin-bottom: 10px;
         }
 
-        .read-more-btn {
+        .btn {
             background: #f1bb2f;
             justify-content: center;
             width: 125px;
@@ -754,7 +757,7 @@
 // Bestsellers
 
 .bestsellers {
-    margin-bottom: 200px;
+    margin-bottom: 110px;
     display: flex;
     align-items: center;
 
@@ -799,7 +802,9 @@
         padding-bottom: 50px;
     }
 
-
+    .brand-img {
+        max-width: 100%;
+    }
 
     .top-brands-title {
         margin-bottom: 50px;
@@ -867,6 +872,7 @@
     }
 
     .category {
+        justify-content: space-between;
         background-color: white;
         padding: 20px;
         border-radius: 5px;
@@ -875,8 +881,9 @@
     }
 
     .category-img {
-        & img {
-            max-width: 100%;
+        img {
+            display: block;
+            max-width: 100px;
         }
     }
 
@@ -887,10 +894,15 @@
 
 // Recomend Products
 .recomend-products {
+    margin-bottom: 40px;
     .title {
         p {
             margin-left: 10px;
         }
+    }
+
+    .product {
+        margin-bottom: 70px;
     }
 
     .col-8 .row {

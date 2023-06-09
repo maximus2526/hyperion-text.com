@@ -67,6 +67,12 @@ h5 {
 }
 
 /* Glogal options */
+.btn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
 .products {
   margin-bottom: 20px;
 }
@@ -76,6 +82,7 @@ h5 {
 }
 .products .product-img img {
   max-width: 100%;
+  margin-bottom: 10px;
 }
 .products .product-content {
   display: flex;
@@ -152,13 +159,8 @@ h5 {
 
 .switch-btn {
   display: inline-block;
-  text-align: center;
-  vertical-align: middle;
   height: 25px;
   width: 25px;
-  border-radius: 100%;
-  background: white;
-  color: black;
 }
 
 .content {
@@ -193,8 +195,6 @@ h5 {
 
 .read-more-btn {
   background: #1169b6;
-  border-radius: 5px;
-  padding: 10px 15px;
   color: white;
 }
 .read-more-btn:hover {
@@ -359,6 +359,10 @@ h5 {
 }
 .scheme-light *::after {
   filter: invert(0%);
+}
+
+.usa {
+  display: inline-block;
 }
 
 .scheme-dark {
@@ -610,12 +614,12 @@ h5 {
   opacity: 70%;
   margin-bottom: 10px;
 }
-.slider .slider-description .read-more-btn {
+.slider .slider-description .btn {
   background: #f1bb2f;
   justify-content: center;
   width: 125px;
 }
-.slider .slider-description .read-more-btn:hover {
+.slider .slider-description .btn:hover {
   background: #bd901f;
 }
 
@@ -644,7 +648,7 @@ h5 {
 }
 
 .bestsellers {
-  margin-bottom: 200px;
+  margin-bottom: 110px;
   display: flex;
   align-items: center;
 }
@@ -678,6 +682,9 @@ h5 {
   border-radius: 5px;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+.top-brands .brand-img {
+  max-width: 100%;
 }
 .top-brands .top-brands-title {
   margin-bottom: 50px;
@@ -721,6 +728,7 @@ h5 {
   padding-bottom: 30px;
 }
 .hot-category .category {
+  justify-content: space-between;
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -728,11 +736,18 @@ h5 {
   box-shadow: 0 0 25px rgb(230, 230, 230);
 }
 .hot-category .category-img img {
-  max-width: 100%;
+  display: block;
+  max-width: 100px;
 }
 
+.recomend-products {
+  margin-bottom: 40px;
+}
 .recomend-products .title p {
   margin-left: 10px;
+}
+.recomend-products .product {
+  margin-bottom: 70px;
 }
 .recomend-products .col-8 .row {
   margin-bottom: 20px;
