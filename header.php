@@ -212,9 +212,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <div class="slider-description scheme-light">
-
-
+                                    <div class="slider-description display-flex column scheme-light">
                                         <div>
                                             <p class="subtitle">Subtitle for this title</p>
                                             <h4>Camping & Hiking Products Discount</h4>
@@ -301,7 +299,7 @@
                             </div>
 
                             <div class="banner-content">
-                                <span class="title">Laptops 2021</span>
+                                <h4 class="title">Laptops 2021</h4>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -314,11 +312,11 @@
                     <div class="col-3">
                         <div class="banner">
                             <div class="banner-bg">
-                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                                <img src="img/blog/home-blog/blog-2.png" alt="">
                             </div>
 
                             <div class="banner-content">
-                                <span class="title">Laptops 2021</span>
+                                <h4 class="title">Laptops 2021</h4>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -331,11 +329,11 @@
                     <div class="col-3">
                         <div class="banner">
                             <div class="banner-bg">
-                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                                <img src="img/blog/home-blog/blog-3.png" alt="">
                             </div>
 
                             <div class="banner-content">
-                                <span class="title">Laptops 2021</span>
+                                <h4 class="title">Laptops 2021</h4>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -348,11 +346,11 @@
                     <div class="col-3">
                         <div class="banner">
                             <div class="banner-bg">
-                                <img src="img/blog/home-blog/blog-1.png" alt="">
+                                <img src="img/blog/home-blog/blog-4.png" alt="">
                             </div>
 
                             <div class="banner-content">
-                                <span class="title">Laptops 2021</span>
+                                <h4 class="title">Laptops 2021</h4>
                                 <p class="subtitle">
                                     Court heard which up above hoped grave do answer.
                                 </p>
@@ -372,7 +370,7 @@
             <div class="container">
                 <div class="block-title display-flex">
                     <img src="img/svg/hyperion-booster.svg" alt="Bestseller icon">
-                    <span class="title">Bestseller</span>
+                    <h4 class="title">Bestseller</h4>
                 </div>
                 <div class="products scheme-dark">
                     <div class="row content-center">
@@ -394,7 +392,7 @@
                         <div class="col-2">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                    <img src="img/products/hyperion-product-img-2.jpg" alt="product's img">
                                 </div>
                                 <div class="product-content">
                                     <div class="product-title">
@@ -409,7 +407,7 @@
                         <div class="col-2">
                             <div class="product hot">
                                 <div class="product-img">
-                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                    <img src="img/products/hyperion-product-img-3.jpg" alt="product's img">
                                 </div>
                                 <div class="product-content">
                                     <div class="product-title">
@@ -424,7 +422,7 @@
                         <div class="col-2">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                    <img src="img/products/hyperion-product-img-4.jpg" alt="product's img">
                                 </div>
                                 <div class="product-content">
                                     <div class="product-title">
@@ -439,7 +437,7 @@
                         <div class="col-2">
                             <div class="product hot">
                                 <div class="product-img">
-                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                    <img src="img/products/hyperion-product-img-5.jpg" alt="product's img">
                                 </div>
                                 <div class="product-content">
                                     <div class="product-title">
@@ -454,7 +452,7 @@
                         <div class="col-2">
                             <div class="product">
                                 <div class="product-img">
-                                    <img src="img/products/hyperion-product-img-1.jpg" alt="product's img">
+                                    <img src="img/products/hyperion-product-img-6.jpg" alt="product's img">
                                 </div>
                                 <div class="product-content">
                                     <div class="product-title">
@@ -490,7 +488,7 @@
                         <div class="row content-center">
                             <div class="col-auto display-flex">
                                 <img class="crown-icon" src="img/svg/hyperion-crown.svg" alt="crown">
-                                <span class="title">Top Brands</span>
+                                <h4 class="title">Top Brands</h4>
                             </div>
                             <div class="col-auto display-flex  col-right">
                                 <a href="#">View All →</a>
@@ -584,7 +582,7 @@
             <div class="container">
                 <div class="block-title display-flex">
                     <img src="img/svg/hyperion-booster.svg" alt="Hot Category">
-                    <span class="title">Hot Category</span>
+                    <h4 class="title">Hot Category</h4>
                 </div>
                 <div class="row">
                     <div class="col-3">
@@ -761,22 +759,22 @@
                                 </div>
                                 <div class="banner-content">
                                     <p class="subtitle">Shoes discount</p>
-                                    <p class="title">Catch A Discount</p>
+                                    <h5 class="title">Catch A Discount</h5>
                                     <div class="counter display-flex">
                                         <div class="data display-flex content-center column">
-                                            <p class="time">02</p>
+                                            <h4 class="time">02</h4>
                                             <p class="subtitle">DAYS</p>
                                         </div>
                                         <div class="data display-flex content-center column">
-                                            <p class="time">12</p>
+                                            <h4 class="time">12</h4>
                                             <p class="subtitle">HR</p>
                                         </div>
                                         <div class="data display-flex content-center column">
-                                            <p class="time">32</p>
+                                            <h4 class="time">32</h4>
                                             <p class="subtitle">MIN</p>
                                         </div>
                                         <div class="data display-flex content-center column">
-                                            <p class="time">54</p>
+                                            <h4 class="time">54</h4>
                                             <p class="subtitle">SC</p>
                                         </div>
                                     </div>
@@ -791,7 +789,7 @@
                                 </div>
                                 <div class="banner-content">
                                     <p class="subtitle">For your home</p>
-                                    <p class="title">New Decore Collection</p>
+                                    <h5 class="title">New Decore Collection</h5>
                                     <p class="text">She dinner she our horses remember depend</p>
                                     <a href="#" class="btn read-more-btn">Read More</a>
                                 </div>
@@ -805,7 +803,7 @@
                             <div class="col-6 display-flex">
                                 <div class="block-title display-flex">
                                     <img src="img/svg/hyperion-like.svg" alt="Hot Category">
-                                    <span class="title">Recomend Products</span>
+                                    <h4 class="title">Recomend Products</h4>
                                 </div>
                             </div>
 
@@ -950,7 +948,7 @@
                 <div class="row">
                     <div class="col-6">
                         <p class="subtitle">Subtitle for this title</p>
-                        <p class="title">Our Blog</p>
+                        <h4 class="title">Our Blog</h4>
                     </div>
                     <div class="col-6 col-right display-flex content-center gap-5">
                         <a href="#" class='switch-btn'><img src="img/svg/arrow-2/left.svg" alt=""></a>

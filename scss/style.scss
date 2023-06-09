@@ -4,9 +4,13 @@
 /* Glogal options */
 
 // Products 
+
+.text {
+    font-size: 15px;
+}
+
 .btn {
     border-radius: 5px;
-    padding: 10px 15px;
     font-size: 14px;
 }
 
@@ -73,19 +77,6 @@
     }
 }
 
-.counter {
-    gap: 5px;
-
-    .data {
-        .time {
-            font-weight: 600;
-        }
-
-        background: white;
-        min-width: 50px;
-        margin-bottom: 20px;
-    }
-}
 
 
 
@@ -165,6 +156,7 @@
 .read-more-btn {
     background: #1169b6;
     color: white;
+    padding: 10px 15px;
 
     &:hover {
         color: white;
@@ -175,11 +167,13 @@
 
 
 .old-price {
-    color: gray;
+    opacity: 50%;
+    font-size: 12px;
     text-decoration: line-through;
 }
 
 .price {
+    font-size: 15px;
     color: #1169b6;
 }
 
@@ -194,7 +188,7 @@
 
 
 .view-more {
-    font-weight: 700;
+    font-weight: 600;
     color: black;
 }
 
@@ -662,22 +656,11 @@
     >.row {
         height: 100%;
         align-items: center;
-        justify-content: space-between;
 
         & .row {
             margin: auto;
             flex-direction: column;
             gap: 20px;
-
-
-            & .col-fixed {
-                background: #ffffff;
-                border-radius: 5px;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-around;
-            }
         }
     }
 
@@ -691,8 +674,6 @@
     }
 
     .slider-description {
-        display: flex;
-        flex-direction: column;
         justify-content: space-between;
         height: 100%;
 
@@ -738,7 +719,7 @@
         bottom: 0px;
 
         & .subtitle {
-            opacity: 75%;
+            opacity: 70%;
             max-width: 180px;
         }
     }
@@ -895,9 +876,20 @@
 // Recomend Products
 .recomend-products {
     margin-bottom: 40px;
-    .title {
-        p {
-            margin-left: 10px;
+
+
+    .counter {
+        gap: 5px;
+    
+        .data {
+            line-height: 1;
+            .time {
+                font-size: 25px;
+            }
+    
+            background: white;
+            padding: 10px 10px;
+            margin-bottom: 20px;
         }
     }
 
@@ -918,9 +910,14 @@
     }
 
 
+    .title {
+        margin-bottom: 20px;
+    }
 
     .text {
         margin-bottom: 20px;
+        opacity: 60%;
+        width: 70%;
     }
 
 

@@ -67,9 +67,12 @@ h5 {
 }
 
 /* Glogal options */
+.text {
+  font-size: 15px;
+}
+
 .btn {
   border-radius: 5px;
-  padding: 10px 15px;
   font-size: 14px;
 }
 
@@ -114,18 +117,6 @@ h5 {
 
 .list-menu li {
   margin-bottom: 15px;
-}
-
-.counter {
-  gap: 5px;
-}
-.counter .data {
-  background: white;
-  min-width: 50px;
-  margin-bottom: 20px;
-}
-.counter .data .time {
-  font-weight: 600;
 }
 
 .content-center {
@@ -196,6 +187,7 @@ h5 {
 .read-more-btn {
   background: #1169b6;
   color: white;
+  padding: 10px 15px;
 }
 .read-more-btn:hover {
   color: white;
@@ -203,11 +195,13 @@ h5 {
 }
 
 .old-price {
-  color: gray;
+  opacity: 50%;
+  font-size: 12px;
   text-decoration: line-through;
 }
 
 .price {
+  font-size: 15px;
   color: #1169b6;
 }
 
@@ -220,7 +214,7 @@ h5 {
 }
 
 .view-more {
-  font-weight: 700;
+  font-weight: 600;
   color: black;
 }
 
@@ -580,20 +574,11 @@ h5 {
 .slider > .row {
   height: 100%;
   align-items: center;
-  justify-content: space-between;
 }
 .slider > .row .row {
   margin: auto;
   flex-direction: column;
   gap: 20px;
-}
-.slider > .row .row .col-fixed {
-  background: #ffffff;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
 }
 .slider .slider-btn {
   position: absolute;
@@ -601,8 +586,6 @@ h5 {
   left: 10px;
 }
 .slider .slider-description {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
@@ -639,7 +622,7 @@ h5 {
   bottom: 0px;
 }
 .banner .banner-content .subtitle {
-  opacity: 75%;
+  opacity: 70%;
   max-width: 180px;
 }
 
@@ -743,8 +726,17 @@ h5 {
 .recomend-products {
   margin-bottom: 40px;
 }
-.recomend-products .title p {
-  margin-left: 10px;
+.recomend-products .counter {
+  gap: 5px;
+}
+.recomend-products .counter .data {
+  line-height: 1;
+  background: white;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.recomend-products .counter .data .time {
+  font-size: 25px;
 }
 .recomend-products .product {
   margin-bottom: 70px;
@@ -756,8 +748,13 @@ h5 {
   margin-top: 0;
   padding-bottom: 0;
 }
+.recomend-products .title {
+  margin-bottom: 20px;
+}
 .recomend-products .text {
   margin-bottom: 20px;
+  opacity: 60%;
+  width: 70%;
 }
 
 article {
