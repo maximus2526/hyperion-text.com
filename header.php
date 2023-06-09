@@ -21,7 +21,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-auto col-right">
+                    <div class="col-auto col-right content-center">
                         <p class="subtitle">Ample end might folly quiet one set spoke.</p>
                         <ul class="nav style-bordered">
                             <li class="has-dropdown subtitle"><a href="/?currency=uan">USD</a></li>
@@ -48,8 +48,8 @@
                                 </div>
                             </div>
 
-                            <button title="Search" class="search-button" type="submit"><img class="search-img"
-                                    src="img/svg/search.svg" alt=""></button>
+                            <a title="Search" class="search-button display-flex content-center" type="submit"><img class="search-img"
+                                    src="img/svg/search.svg" alt=""></a>
 
                         </form>
                     </div>
@@ -87,7 +87,7 @@
                         <div class="browse-categories">
                             <div class="heading scheme-light">
                                 <div class="dropdown-title">
-                                    <div class="left-side">
+                                    <div class="display-flex content-center">
                                         <img class="browse-sign" src="img/svg/browse.svg" alt="Browse Categories Icon">
                                         <span>Browse Categories</span>
                                     </div>
@@ -474,68 +474,71 @@
             </div>
         </div>
         <div class="top-brands">
-            <div class="top-brands-bg scheme-light">
-                <div class="top-brands-heading display-flex">
-                    <div class="col-auto">
-                        <img class="crown-icon" src="img/svg/hyperion-crown.svg" alt="crown">
-                        <span class="title">Top Brands</span>
-                    </div>
-                    <div class="col-auto">
-                        <a href="#">View All →</a>
-                    </div>
-                </div>
-            </div>
-
+            <div class="top-brands-bg"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="brand bg-white">
-                            <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
-                            <p class="title">Xiaomi</p>
-                            <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                <div class="brands">
+                    <div class="top-brands-heading scheme-light">
+                        <div class="row content-center">
+                            <div class="col-auto display-flex">
+                                <img class="crown-icon" src="img/svg/hyperion-crown.svg" alt="crown">
+                                <span class="title">Top Brands</span>
+                            </div>
+                            <div class="col-auto display-flex  col-right">
+                                <a href="#">View All →</a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="btn-left">
-                        <a href="#" class='switch-btn'>&lt;</a>
-                    </div>
-                    <div class="btn-right">
-                        <a href="#" class='switch-btn'>&gt;</a>
+                    <div class="row">
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="brand bg-white">
+                                <img src="img/brands/mini-brands/mi.png" alt="Xiaomi logo">
+                                <p class="title">Xiaomi</p>
+                                <img src="img/Brands big/hyperion-brand-big-1.jpg" alt="Brand's product">
+                            </div>
+                        </div>
+
+                        <div class="btn-left">
+                            <a href="#" class='switch-btn'>&lt;</a>
+                        </div>
+                        <div class="btn-right">
+                            <a href="#" class='switch-btn'>&gt;</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -871,8 +874,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -1037,7 +1038,7 @@
 
                             <div class="col-8">
                                 <div class="info">
-                                    <p class="title">Online Payment</p>
+                                    <p class="title">Online Pay</p>
                                     <p class="subtitle">Support for multiple services</p>
                                 </div>
                             </div>

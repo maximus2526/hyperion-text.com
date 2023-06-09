@@ -101,6 +101,9 @@ h5 {
 .info-blocks .container {
   padding: 20px 0;
 }
+.info-blocks .info-img {
+  min-width: 30px;
+}
 
 .list-menu li {
   margin-bottom: 15px;
@@ -665,14 +668,25 @@ h5 {
 .top-brands .crown-icon {
   margin-right: 20px;
 }
+.top-brands .brands {
+  margin-top: -150px;
+}
 .top-brands .top-brands-bg {
   background: #f1bb2f;
+  height: 200px;
+  width: 80%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 .top-brands .top-brands-title {
   margin-bottom: 50px;
 }
 .top-brands .top-brands-title .row {
   margin: 0 -100px;
+}
+.top-brands .top-brands-heading {
+  padding: 20px 0;
 }
 .top-brands .container .row .col-auto .brand {
   display: flex;
@@ -726,11 +740,6 @@ h5 {
 .recomend-products .nav .active {
   margin-top: 0;
   padding-bottom: 0;
-}
-.recomend-products .info-block {
-  padding-top: 20px;
-  max-width: 90%;
-  margin: 0 auto 0 auto;
 }
 .recomend-products .text {
   margin-bottom: 20px;
@@ -788,4 +797,10 @@ article .author span {
 }
 .partnership .col-auto {
   gap: 5px;
+}
+
+@media screen and (max-width: 1800px) {
+  .top-brands .top-brands-bg {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

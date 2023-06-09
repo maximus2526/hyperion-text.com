@@ -52,7 +52,11 @@
     & .container {
         padding: 20px 0;
     }
+    & .info-img {
+        min-width: 30px;
+    }
 }
+
 
 
 // list-menu 
@@ -780,21 +784,35 @@
         margin-right: 20px;
     }
 
+    .brands {
+        margin-top: -150px;
+    }
+
     position: relative;
 
     .top-brands-bg {
         background: #f1bb2f;
+        height: 200px;
+        width: 80%;
+        border-radius: 5px;
+        margin: 0 auto;
+        padding-bottom: 50px;
     }
+
+
 
     .top-brands-title {
         margin-bottom: 50px;
-        
-        
+
+
         & .row {
             margin: 0 -100px;
         }
     }
-    
+
+    .top-brands-heading {
+        padding: 20px 0;
+    }
 
     .container {
 
@@ -810,6 +828,9 @@
 
     margin-bottom: 50px;
 }
+
+
+
 
 // Hot category
 
@@ -864,7 +885,6 @@
 
 
 
-
 // Recomend Products
 .recomend-products {
     .title {
@@ -885,11 +905,7 @@
         }
     }
 
-    .info-block {
-        padding-top: 20px;
-        max-width: 90%;
-        margin: 0 auto 0 auto;
-    }
+
 
     .text {
         margin-bottom: 20px;
@@ -982,8 +998,9 @@ article {
 }
 
 
-// @media screen and (min-width: 1024px) {
-//     .container {
-//         width: 100%;
-//     }
-// }
+
+@media screen and (max-width: 1800px) {
+    .top-brands .top-brands-bg {
+        width: 100%;
+    }
+}
