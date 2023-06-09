@@ -728,12 +728,13 @@ h5 {
 }
 .recomend-products .counter {
   gap: 5px;
+  margin-bottom: 20px;
 }
 .recomend-products .counter .data {
   line-height: 1;
   background: white;
   padding: 10px 10px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 .recomend-products .counter .data .time {
   font-size: 25px;
@@ -748,7 +749,7 @@ h5 {
   margin-top: 0;
   padding-bottom: 0;
 }
-.recomend-products .title {
+.recomend-products .banner .title {
   margin-bottom: 20px;
 }
 .recomend-products .text {
@@ -780,9 +781,13 @@ article .article-content {
   padding: 0 20px;
 }
 article .author {
-  padding: 0 20px;
+  padding: 20px;
 }
-article .author span {
+article .author .subtitle {
+  opacity: 20%;
+}
+article .author .author-name {
+  font-size: 12px;
   margin-left: 10px;
 }
 

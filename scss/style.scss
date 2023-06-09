@@ -37,6 +37,10 @@
 
 }
 
+.purchase-now {
+    color: #1169B6;
+}
+
 .design-horizontal {
     display: flex;
     align-items: center;
@@ -62,6 +66,7 @@
     & .container {
         padding: 20px 0;
     }
+
     & .info-img {
         min-width: 30px;
     }
@@ -313,9 +318,7 @@
 
         input {
             border-radius: 5px;
-            border-width: 1px;
-            border-color: rgb(236, 236, 236);
-            box-shadow: 0 0 25px rgb(231, 231, 231);
+            border: 1px solid #3333331A;
             margin-right: 5px;
             width: 100%;
             padding-left: 10px;
@@ -880,16 +883,18 @@
 
     .counter {
         gap: 5px;
-    
+        margin-bottom: 20px;
+
         .data {
             line-height: 1;
+
             .time {
                 font-size: 25px;
             }
-    
+
             background: white;
             padding: 10px 10px;
-            margin-bottom: 20px;
+            margin-bottom: 28px;
         }
     }
 
@@ -909,8 +914,7 @@
         }
     }
 
-
-    .title {
+    .banner .title {
         margin-bottom: 20px;
     }
 
@@ -955,12 +959,18 @@ article {
     }
 
     .author {
-        padding: 0 20px;
+        padding: 20px;
+
+        .subtitle {
+            opacity: 20%;
+        }
+
+        .author-name {
+            font-size: 12px;
+            margin-left: 10px;
+        }
     }
 
-    .author span {
-        margin-left: 10px;
-    }
 
     margin-bottom: 50px;
 }
