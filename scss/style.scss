@@ -48,6 +48,7 @@ h6 {
 
 .products {
     margin-bottom: 20px;
+
     .product {
         box-shadow: 0 0 25px rgb(231, 231, 231);
     }
@@ -57,12 +58,7 @@ h6 {
         font-size: 14px;
     }
 
-    .product-img {
-        & img {
-            max-width: 100%;
-            margin-bottom: 10px;
-        }
-    }
+
 
     .product-content {
         display: flex;
@@ -86,12 +82,18 @@ h6 {
 
     .product-img {
         & img {
-            width: 100px;
-            height: 120px;
-            border-radius: 5px;
+            max-width: 120px;
+            padding: 15px;
+        }
+        margin-bottom: 10px;
+    }
+
+    .product-content {
+        p {
+            margin-bottom: 0;
         }
     }
-}
+}   
 
 .bg-white {
     background-color: white;
@@ -105,13 +107,15 @@ h6 {
     & .container {
         padding: 20px 0;
     }
-    & .info-img img{
+
+    & .info-img img {
         max-width: 46px;
     }
 }
 
 .info-block {
     gap: 40px;
+
     & .subtitle {
         margin-bottom: 0;
     }
@@ -276,8 +280,8 @@ h6 {
 
     margin: 20px 0;
 
-    :last-child {
-        margin-left: 10px;
+    img {
+        margin-right: 10px;
     }
 }
 
@@ -340,6 +344,11 @@ h6 {
             filter: invert(100%);
         }
     }
+
+    .product-img {
+        margin-bottom: 0;
+        padding: 5px;
+    }
 }
 
 
@@ -369,6 +378,7 @@ h6 {
         position: relative;
         width: 100%;
         box-shadow: 0 0 25px rgb(243, 242, 242);
+
         input {
             border-radius: 5px;
             border: 1px solid #3333331A;
@@ -404,6 +414,7 @@ h6 {
 
 .scheme-light {
     color: white;
+
     a {
         color: white;
 
@@ -423,7 +434,7 @@ h6 {
 
 .scheme-dark {
     color: black;
-    
+
     a {
         color: black;
 
@@ -565,6 +576,7 @@ h6 {
 
         .subtitle {
             opacity: 95%;
+            margin-bottom: 0;
         }
 
         >:first-child .nav {
@@ -667,12 +679,15 @@ h6 {
         left: 0;
         right: 0;
         background: white;
-
-
         & a {
             padding-left: 10px;
         }
     }
+
+    p {
+        margin-bottom: 0;
+    }
+
 
 }
 
@@ -692,7 +707,7 @@ h6 {
 }
 
 .slider {
-    
+
     position: relative;
     border-radius: 5px;
     margin-top: 20px;
@@ -715,9 +730,14 @@ h6 {
         right: 0;
         left: 15px;
     }
+
     .product {
         box-shadow: none;
+        .product-img {
+            margin-bottom: 0;
+        }
     }
+
     >.row {
         height: 100%;
         align-items: center;
@@ -768,6 +788,7 @@ h6 {
 .banner {
     position: relative;
     box-shadow: 0 0 25px rgb(231, 231, 231);
+
     .banner-bg {
         & img {
             width: 100%;
@@ -793,10 +814,9 @@ h6 {
 // promo-banner 
 
 .promo-banner {
-    .banner {
-        .subtitle {
-            margin-bottom: 20px;
-        }
+    margin-bottom: 20px;
+    .title {
+        margin-bottom: 15px;
     }
 }
 
@@ -806,6 +826,10 @@ h6 {
     margin-bottom: 110px;
     display: flex;
     align-items: center;
+
+    .product {
+        box-shadow: none;
+    }
 
     .col-3 {
         display: flex;
@@ -819,7 +843,7 @@ h6 {
 
     .bestseller-img {
         border-radius: 5px;
-        max-width: 100%;
+        min-width: 200px;
     }
 }
 
@@ -942,10 +966,17 @@ h6 {
 .recomend-products {
     margin-bottom: 40px;
 
-
     .counter {
         gap: 5px;
         margin-bottom: 20px;
+
+        .subtitle {
+            margin-bottom: 0;
+        }
+
+        span.time {
+            font-weight: 700;
+        }
 
         .data {
             line-height: 1;
@@ -957,6 +988,7 @@ h6 {
             background: white;
             padding: 10px 10px;
             margin-bottom: 28px;
+            width: 50px;
         }
     }
 
@@ -994,18 +1026,15 @@ h6 {
 // our-blog
 
 .articles {
-    .title, .subtitle {
-        margin-bottom: 0;
-    }
-    .switch-btn {
-        max-height: none;
-    }
 
     article {
         background: white;
         border-radius: 5px;
         box-shadow: 0 0 25px rgb(231, 231, 231);
+    }
 
+    .block-title.title {
+        padding: 10px;
     }
 
     img {
@@ -1015,10 +1044,8 @@ h6 {
 
 
     .article-content .subtitle {
-        padding-bottom: 10px;
-        margin-bottom: 10px;
         border-bottom: 1px solid #dadada;
-
+        padding-bottom: 10px;
     }
 
     .article-content {
@@ -1027,7 +1054,9 @@ h6 {
 
     .author {
         padding: 20px;
-
+        p {
+            margin-bottom: 0;
+        }
         .author-name {
             font-size: 12px;
             margin-left: 10px;
