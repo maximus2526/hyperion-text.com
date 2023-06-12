@@ -6,9 +6,20 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
-  padding: 3px;
+h6 {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+.sub-title {
+  margin-bottom: 0;
+}
+
+.dropdown p {
+  margin-bottom: 0;
 }
 
 .text {
@@ -75,8 +86,18 @@ a {
 .info-blocks .container {
   padding: 20px 0;
 }
-.info-blocks .info-img {
-  min-width: 30px;
+.info-blocks .info-img img {
+  max-width: 46px;
+}
+
+.info-block {
+  gap: 40px;
+}
+.info-block .subtitle {
+  margin-bottom: 0;
+}
+.info-block .title {
+  margin-bottom: 15px;
 }
 
 .list-menu li {
@@ -527,7 +548,7 @@ a {
   position: relative;
   border-radius: 5px;
   margin-top: 20px;
-  height: 600px;
+  height: 580px;
 }
 .slider .slider-bg {
   box-shadow: 0 0 25px rgb(231, 231, 231);
@@ -735,33 +756,36 @@ a {
   width: 70%;
 }
 
-article {
+.articles {
   margin-bottom: 50px;
 }
-article .switch-btn {
+.articles .title, .articles .subtitle {
+  margin-bottom: 0;
+}
+.articles .switch-btn {
   max-height: none;
 }
-article .article {
+.articles article {
   background: white;
   border-radius: 5px;
   box-shadow: 0 0 25px rgb(231, 231, 231);
 }
-article img {
+.articles img {
   max-width: 100%;
   border-radius: 5px 5px 0 0;
 }
-article .article-content .subtitle {
+.articles .article-content .subtitle {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #dadada;
 }
-article .article-content {
+.articles .article-content {
   padding: 0 20px;
 }
-article .author {
+.articles .author {
   padding: 20px;
 }
-article .author .author-name {
+.articles .author .author-name {
   font-size: 12px;
   margin-left: 10px;
 }
@@ -769,6 +793,7 @@ article .author .author-name {
 .subscribe {
   background: no-repeat url("../../img/hyperion-subscribe-bg.jpg");
   background-size: cover;
+  background-position: center;
   padding: 50px 0;
   margin-bottom: 20px;
 }

@@ -10,10 +10,22 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
-    padding: 3px;
+h6 {
+    margin-bottom: 20px;
 }
+
+.title {
+    margin-bottom: 0;
+}
+
+.sub-title {
+    margin-bottom: 0;
+}
+
+.dropdown p {
+    margin-bottom: 0;
+}
+
 
 .text {
     font-size: 15px;
@@ -87,19 +99,27 @@ a {
 }
 
 
-// infoboxes
+// info-blocks
 
 .info-blocks {
-
     & .container {
         padding: 20px 0;
     }
-
-    & .info-img {
-        min-width: 30px;
+    & .info-img img{
+        max-width: 46px;
     }
 }
 
+.info-block {
+    gap: 40px;
+    & .subtitle {
+        margin-bottom: 0;
+    }
+
+    & .title {
+        margin-bottom: 15px;
+    }
+}
 
 
 // list-menu 
@@ -676,7 +696,7 @@ a {
     position: relative;
     border-radius: 5px;
     margin-top: 20px;
-    height: 600px;
+    height: 580px;
 
 
     .slider-bg {
@@ -973,12 +993,15 @@ a {
 
 // our-blog
 
-article {
+.articles {
+    .title, .subtitle {
+        margin-bottom: 0;
+    }
     .switch-btn {
         max-height: none;
     }
 
-    .article {
+    article {
         background: white;
         border-radius: 5px;
         box-shadow: 0 0 25px rgb(231, 231, 231);
@@ -1023,6 +1046,7 @@ article {
 .subscribe {
     background: no-repeat url('../../img/hyperion-subscribe-bg.jpg');
     background-size: cover;
+    background-position: center;
     padding: 50px 0;
     margin-bottom: 20px;
 
