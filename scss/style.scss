@@ -1,4 +1,4 @@
-@import "reset.scss";
+@import "reset.css";
 // @import "old-style.scss";
 
 /* Glogal options */
@@ -39,6 +39,9 @@
 
 .purchase-now {
     color: #1169B6;
+    :active {
+        color: #1169B6;
+    }
 }
 
 .design-horizontal {
@@ -935,7 +938,7 @@ article {
         max-height: none;
     }
 
-    .article-block {
+    .article {
         background: white;
         border-radius: 5px;
 
