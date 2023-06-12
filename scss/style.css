@@ -1,7 +1,19 @@
 @import "reset.css";
 /* Glogal options */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  padding: 3px;
+}
+
 .text {
   font-size: 15px;
+  opacity: 70%;
 }
 
 .btn {
@@ -9,8 +21,20 @@
   font-size: 14px;
 }
 
+.lite-text {
+  opacity: 30%;
+  font-size: 12px;
+}
+
+.out-shadow {
+  box-shadow: 0 0 25px rgb(231, 231, 231);
+}
+
 .products {
   margin-bottom: 20px;
+}
+.products .product {
+  box-shadow: 0 0 25px rgb(231, 231, 231);
 }
 .products .product-title {
   font-weight: 600;
@@ -57,6 +81,9 @@
 
 .list-menu li {
   margin-bottom: 15px;
+}
+.list-menu img {
+  display: inline;
 }
 
 .content-center {
@@ -151,6 +178,7 @@
 
 .subtitle {
   font-size: 12px;
+  opacity: 70%;
 }
 
 .view-more {
@@ -254,6 +282,7 @@
 .search-form .search-field {
   position: relative;
   width: 100%;
+  box-shadow: 0 0 25px rgb(243, 242, 242);
 }
 .search-form .search-field input {
   border-radius: 5px;
@@ -413,6 +442,9 @@
   height: 40px;
   align-items: center;
 }
+.header-top .row .subtitle {
+  opacity: 95%;
+}
 .header-top .row > :first-child .nav {
   display: flex;
   gap: 20px;
@@ -440,6 +472,7 @@
 }
 .header-middle .profile-element a {
   display: flex;
+  position: relative;
   align-items: center;
 }
 .header-middle .profile-element.wish {
@@ -487,16 +520,17 @@
 }
 
 .slider-block {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .slider {
   position: relative;
   border-radius: 5px;
   margin-top: 20px;
-  height: 580px;
+  height: 600px;
 }
 .slider .slider-bg {
+  box-shadow: 0 0 25px rgb(231, 231, 231);
   height: inherit;
   display: block;
   position: absolute;
@@ -508,6 +542,9 @@
   height: inherit;
   width: 100%;
   border-radius: 5px;
+}
+.slider .product {
+  box-shadow: none;
 }
 .slider > .row {
   height: 100%;
@@ -546,6 +583,7 @@
 
 .banner {
   position: relative;
+  box-shadow: 0 0 25px rgb(231, 231, 231);
 }
 .banner .banner-bg img {
   width: 100%;
@@ -679,6 +717,7 @@
 }
 .recomend-products .product {
   margin-bottom: 70px;
+  box-shadow: none;
 }
 .recomend-products .col-8 .row {
   margin-bottom: 20px;
@@ -705,6 +744,7 @@ article .switch-btn {
 article .article {
   background: white;
   border-radius: 5px;
+  box-shadow: 0 0 25px rgb(231, 231, 231);
 }
 article img {
   max-width: 100%;
@@ -720,9 +760,6 @@ article .article-content {
 }
 article .author {
   padding: 20px;
-}
-article .author .subtitle {
-  opacity: 20%;
 }
 article .author .author-name {
   font-size: 12px;
@@ -745,6 +782,10 @@ article .author .author-name {
 
 .footer-menu {
   margin: 40px 0;
+}
+.footer-menu .title,
+.footer-menu .hyperion-logo {
+  margin-bottom: 20px;
 }
 
 .partnership {
