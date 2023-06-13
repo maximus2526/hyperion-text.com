@@ -1,9 +1,10 @@
 @import "reset.css";
+@import "home2.css";
 // @import "old-style.scss";
 
 /* Glogal options */
 
-// Products 
+
 p,
 h1,
 h2,
@@ -14,11 +15,20 @@ h6 {
     margin-bottom: 20px;
 }
 
+.closed {
+    display: none;
+}
+
+
+.reset-text-margin {
+    margin-bottom: 0;
+}
+
 .title {
     margin-bottom: 0;
 }
 
-.sub-title {
+.subtitle {
     margin-bottom: 0;
 }
 
@@ -49,18 +59,18 @@ h6 {
 .products {
     margin-bottom: 20px;
 
-    .product {
-        box-shadow: 0 0 25px rgb(231, 231, 231);
-    }
-
     .product-title {
         font-weight: 600;
         font-size: 14px;
     }
 
+    .product-img {
+        min-width: 100px;
+    }
 
 
     .product-content {
+        padding: 10px;
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -85,6 +95,7 @@ h6 {
             max-width: 120px;
             padding: 15px;
         }
+
         margin-bottom: 10px;
     }
 
@@ -93,7 +104,7 @@ h6 {
             margin-bottom: 0;
         }
     }
-}   
+}
 
 .bg-white {
     background-color: white;
@@ -210,7 +221,14 @@ h6 {
         top: 10px;
         left: 20px;
         text-align: center;
-        width: 65px;
+        min-width: 65px;
+
+        @media screen and (max-width: 1024px) {
+            & {
+                font-size: 8px;
+                min-width: 20px;
+            }
+        }
     }
 }
 
@@ -345,18 +363,19 @@ h6 {
         }
     }
 
-    .product-img {
+    div.product-img {
+        min-width: 100px;
         margin-bottom: 0;
         padding: 5px;
     }
 }
 
 
-.search-form {
+.input-form {
     align-items: center;
     gap: 5px;
 
-    & .search-field::placeholder {
+    & .input-field::placeholder {
         padding-left: 20px;
     }
 
@@ -374,7 +393,7 @@ h6 {
         }
     }
 
-    & .search-field {
+    & .input-field {
         position: relative;
         width: 100%;
         box-shadow: 0 0 25px rgb(243, 242, 242);
@@ -389,7 +408,7 @@ h6 {
         }
     }
 
-    & .search-button {
+    & .input-button {
         color: white;
         background: #1169b6;
         border: 1px solid #1169b6;
@@ -475,7 +494,6 @@ h6 {
 
 .row {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
@@ -497,8 +515,6 @@ h6 {
     flex: 0 0 auto;
 }
 
-
-
 .col-1 {
     flex-basis: calc(100%/12);
     max-width: calc(100%/12);
@@ -506,17 +522,17 @@ h6 {
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100%/12) * 2)
+    max-width: calc((100%/12) * 2);
 }
 
 .col-3 {
     flex-basis: calc((100% / 12) * 3);
-    max-width: calc((100%/12) * 3)
+    max-width: calc((100%/12) * 3);
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
-    max-width: calc((100%/12) * 4)
+    max-width: calc((100%/12) * 4);
 }
 
 .col-5 {
@@ -679,6 +695,7 @@ h6 {
         left: 0;
         right: 0;
         background: white;
+
         & a {
             padding-left: 10px;
         }
@@ -733,13 +750,9 @@ h6 {
 
     .product {
         box-shadow: none;
-        .product-img {
-            margin-bottom: 0;
-        }
     }
 
     >.row {
-        height: 100%;
         align-items: center;
 
         & .row {
@@ -791,7 +804,7 @@ h6 {
 
     .banner-bg {
         & img {
-            width: 100%;
+            min-width: 250px;
             border-radius: 5px;
         }
     }
@@ -815,6 +828,7 @@ h6 {
 
 .promo-banner {
     margin-bottom: 20px;
+
     .title {
         margin-bottom: 15px;
     }
@@ -826,6 +840,11 @@ h6 {
     margin-bottom: 110px;
     display: flex;
     align-items: center;
+
+    .products {
+        width: 95%;
+        margin: 0 auto;
+    }
 
     .product {
         box-shadow: none;
@@ -851,57 +870,43 @@ h6 {
 
 
 // Top brands
+.crown-icon {
+    margin-right: 20px;
+}
+
+.brands {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -200px;
+}
+
+.top-brands-bg {
+    background: #f1bb2f;
+    height: 200px;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.brand-img {
+    max-width: 100%;
+}
+
+.top-brands-heading {
+    padding: 20px 0;
+}
 
 .top-brands {
-    .crown-icon {
-        margin-right: 20px;
-    }
-
-    .brands {
-        margin-top: -150px;
-    }
 
     position: relative;
-
-    .top-brands-bg {
-        background: #f1bb2f;
-        height: 200px;
-        width: 80%;
-        border-radius: 5px;
-        margin: 0 auto;
-        padding-bottom: 50px;
-    }
-
-    .brand-img {
-        max-width: 100%;
-    }
-
-    .top-brands-title {
-        margin-bottom: 50px;
-
-
-        & .row {
-            margin: 0 -100px;
-        }
-    }
-
-    .top-brands-heading {
-        padding: 20px 0;
-    }
-
-    .container {
-
-        & .row {
-            & .col-auto .brand {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-        }
-
-    }
-
     margin-bottom: 50px;
+
+    .brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -963,41 +968,41 @@ h6 {
 
 
 // Recomend Products
+.counter {
+    gap: 5px;
+    margin-bottom: 20px;
+
+    .subtitle {
+        margin-bottom: 0;
+    }
+
+    span.time {
+        font-weight: 700;
+    }
+
+    .data {
+        line-height: 1;
+
+        .time {
+            font-size: 25px;
+        }
+
+        background: white;
+        padding: 10px 10px;
+        margin-bottom: 28px;
+        width: 50px;
+    }
+}
+
 .recomend-products {
     margin-bottom: 40px;
-
-    .counter {
-        gap: 5px;
-        margin-bottom: 20px;
-
-        .subtitle {
-            margin-bottom: 0;
-        }
-
-        span.time {
-            font-weight: 700;
-        }
-
-        .data {
-            line-height: 1;
-
-            .time {
-                font-size: 25px;
-            }
-
-            background: white;
-            padding: 10px 10px;
-            margin-bottom: 28px;
-            width: 50px;
-        }
-    }
 
     .product {
         margin-bottom: 70px;
         box-shadow: none;
     }
 
-    .col-8 .row {
+    .col-8:first-child {
         margin-bottom: 20px;
     }
 
@@ -1022,6 +1027,9 @@ h6 {
 
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 
 // our-blog
 
@@ -1054,9 +1062,11 @@ h6 {
 
     .author {
         padding: 20px;
+
         p {
             margin-bottom: 0;
         }
+
         .author-name {
             font-size: 12px;
             margin-left: 10px;
@@ -1083,7 +1093,7 @@ h6 {
         max-width: 300px;
     }
 
-    .search-button {
+    .input-button {
         height: 40px;
         width: 135px;
     }
