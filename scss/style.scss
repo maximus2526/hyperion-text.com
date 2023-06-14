@@ -186,7 +186,7 @@ h6 {
 }
 
 .switch-btn {
-    display: inline-block;
+    display: flex;
     height: 25px;
     width: 25px;
 }
@@ -294,9 +294,11 @@ h6 {
     }
 }
 
+
+
 .block-title {
 
-    margin: 20px 0;
+    padding: 20px 0;
 
     img {
         margin-right: 10px;
