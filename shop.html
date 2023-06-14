@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="scss/style.css">
+        <link rel="stylesheet" href="css/base.css">
         <title>Document</title>
     </head>
 
@@ -217,12 +217,15 @@
                         </div>
                         <div class="col-auto scheme-dark">
                             <ul class="nav">
-                                <li class="has-dropdown"><a href="#"><span
-                                            class="active">Home</span></a></li>
-                                <li class="has-dropdown"><a href="#">Shop</a></li>
+                                <li class="has-dropdown"><a href="/home.html">Home</a></li>
+                                <li class="has-dropdown"><a href="/shop.html"><span
+                                            class="active">Shop</span></a></li>
                                 <li class="has-dropdown"><a href="#">Blog</a></li>
-                                <li class="has-dropdown"><a href="#">About us</a></li>
-                                <li class="has-dropdown"><a href="#">Contact us</a></li>
+                                <li class="has-dropdown"><a
+                                        href="/about-us.html">About us</a></li>
+                                <li class="has-dropdown"><a
+                                        href="/contact-us.html">
+                                        Contact us</a></li>
                             </ul>
                         </div>
                         <div
@@ -294,22 +297,37 @@
                                 <div class="block-title">
                                     <p class="title">Color</p>
                                 </div>
-                                <form action method="get">
-                                    <label for="color">
+                                <form class="display-flex gap" action
+                                    method="get">
+                                    <label for="black">
+                                        <img class="radio-img" src="img/colors/color-1.svg" alt>
                                         <input type="radio" id="black"
                                             name="color" value="black">
                                     </label>
-                                    <label for="color">
-                                        <input type="radio" id="black"
-                                            name="color" value="black">
+                                    <label for="white">
+                                        <img src="img/colors/color-2.svg" alt>
+                                        <input type="radio" id="white"
+                                            name="color" value="white">
                                     </label>
-                                    <label for="color">
-                                        <input type="radio" id="black"
-                                            name="color" value="black">
+                                    <label for="gray">
+                                        <img src="img/colors/color-3.svg" alt>
+                                        <input type="radio" id="gray"
+                                            name="color" value="gray">
                                     </label>
-                                    <label for="color">
-                                        <input type="radio" id="black"
-                                            name="color" value="black">
+                                    <label for="green">
+                                        <img src="img/colors/color-4.svg" alt>
+                                        <input type="radio" id="green"
+                                            name="color" value="green">
+                                    </label>
+                                    <label for="red">
+                                        <img src="img/colors/color-5.svg" alt>
+                                        <input type="radio" id="red"
+                                            name="color" value="red">
+                                    </label>
+                                    <label for="yelloy">
+                                        <img src="img/colors/color-6.svg" alt>
+                                        <input type="radio" id="yelloy"
+                                            name="color" value="yelloy">
                                     </label>
                                 </form>
                             </div>
@@ -720,7 +738,8 @@
                         <div class="pagination display-flex content-center gap">
                             <div class="arrow-left">
                                 <a href="#">
-                                    <img src="img/svg/arrow-3/arrow-left.svg" alt>
+                                    <img src="img/svg/arrow-3/arrow-left.svg"
+                                        alt>
                                 </a>
                             </div>
 
@@ -737,7 +756,8 @@
                             <div class="arrow-right scheme-dark">
                                 <a href="#" class="display-flex">
                                     <p class="text">Next</p>
-                                    <img src="img/svg/arrow-3/arrow-right.svg" alt>
+                                    <img src="img/svg/arrow-3/arrow-right.svg"
+                                        alt>
                                 </a>
                             </div>
 
@@ -748,7 +768,6 @@
         </div>
 
         <footer>
-
             <div class="info-blocks">
                 <div class="container">
                     <div class="row">
