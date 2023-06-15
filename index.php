@@ -1,3 +1,3 @@
-<?php 
-include "header.html";
+<?php
+    include_once 'inc/app.php';
 ?>
