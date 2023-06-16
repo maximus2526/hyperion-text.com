@@ -36,9 +36,14 @@
                             <p class="title">Price</p>
                         </div>
                         <div class="price-range">
-                            <form method="post" class="price-picker">
-                                <input type="range" id="volume" name="volume">
-                            </form>
+                            <div class="price-picker">
+                                <div class="passive">
+                                    <div class="active">
+                                        <div class="choise-circle left"></div>
+                                        <div class="choise-circle right"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <p class="subtitle">Price $ 30 - $ 2300</p>
                         </div>
                     </div>
