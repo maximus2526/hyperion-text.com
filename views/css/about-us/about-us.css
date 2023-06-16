@@ -40,7 +40,7 @@
 .about-us .info-blocks .info-block {
   border-radius: 5px;
   position: relative;
-  z-index: 999;
+  z-index: 1;
   padding: 50px;
 }
 .about-us .info-blocks .info-block .big-num {
@@ -85,6 +85,7 @@
 }
 .our-team .carousel-bg {
   width: 100%;
+  margin: 0 auto;
 }
 .our-team .member {
   margin-top: -100px;

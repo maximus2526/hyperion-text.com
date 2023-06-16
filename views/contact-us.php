@@ -85,13 +85,9 @@
                             <div class="row">
                                 <div class="col-6"><input placeholder="First Name" type="text"></div>
                                 <div class="col-6"><input placeholder="Last Name" type="text"></div>
-                            </div>
-                            <div class="row">
                                 <div class="col-6"><input placeholder="Your Email" type="text"></div>
                                 <div class="col-6"><input placeholder="Phone Number" type="text"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-auto">
+                                <div class="col-12">
                                     <input placeholder="Your Message..." class="big-input" type="text">
                                 </div>
                             </div>

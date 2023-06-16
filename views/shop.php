@@ -1,18 +1,17 @@
 <style>
-.dropdown {
-    display: none;
-}
+    .dropdown {
+        display: none;
+    }
 </style>
 <div class="content">
     <div class="container">
-        <div class="breadcrumb scheme-dark display-flex align-center space-between">
-            <ul class="display-flex subtitle">
+        <div class="shop-heading size-s opacity-50 scheme-dark display-flex align-center space-between">
+            <ul class="breadcrumb display-flex ">
                 <li><a href="/">Home</a></li>
-                <li class="breadcrumb-divider">/</li>
-                <li><a href="/">Shop</a></li>
+                <li><a href="/?action=shop">Shop</a></li>
             </ul>
 
-            <div class="show-result">
+            <div class="products-on-page">
                 <p class="subtitle">Showing 1-16 of 617 results</p>
             </div>
         </div>
@@ -20,7 +19,7 @@
             <div class="col-3">
                 <div class="side-bar scheme-dark">
                     <div class="category-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Category</p>
                         </div>
                         <div class="categories">
@@ -33,7 +32,7 @@
                         </div>
                     </div>
                     <div class="price-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Price</p>
                         </div>
                         <div class="price-range">
@@ -44,7 +43,7 @@
                         </div>
                     </div>
                     <div class="brand-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Brand</p>
                         </div>
                         <div class="categories">
@@ -57,41 +56,23 @@
                         </div>
                     </div>
                     <div class="color-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Color</p>
                         </div>
-                        <form class="display-flex gap" action method="get">
-                            <label for="black">
-                                <img class="radio-img" src="/views/img/colors/color-1.svg" alt>
-                                <input type="radio" id="black" name="color" value="black">
-                            </label>
-                            <label for="white">
-                                <img src="/views/img/colors/color-2.svg" alt>
-                                <input type="radio" id="white" name="color" value="white">
-                            </label>
-                            <label for="gray">
-                                <img src="/views/img/colors/color-3.svg" alt>
-                                <input type="radio" id="gray" name="color" value="gray">
-                            </label>
-                            <label for="green">
-                                <img src="/views/img/colors/color-4.svg" alt>
-                                <input type="radio" id="green" name="color" value="green">
-                            </label>
-                            <label for="red">
-                                <img src="/views/img/colors/color-5.svg" alt>
-                                <input type="radio" id="red" name="color" value="red">
-                            </label>
-                            <label for="yelloy">
-                                <img src="/views/img/colors/color-6.svg" alt>
-                                <input type="radio" id="yelloy" name="color" value="yelloy">
-                            </label>
-                        </form>
+                        <div class="colors-section">
+                            <div class="circle black"></div>
+                            <div class="circle white active"></div>
+                            <div class="circle gray"></div>
+                            <div class="circle green"></div>
+                            <div class="circle red"></div>
+                            <div class="circle orange"></div>
+                        </div>
                     </div>
                     <div class="best-choise-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Best Choise</p>
                         </div>
-                        <div class="products">
+                        <div class="products ">
                             <div class="product design-horizontal bg-white">
                                 <div class="product-img">
                                     <img src="/views/img/products/hyperion-product-img-26.jpg" alt="Product img">
@@ -132,7 +113,7 @@
 
                     </div>
                     <div class="tags-block">
-                        <div class="block-title">
+                        <div class="block-title design-bordered">
                             <p class="title">Tags</p>
                         </div>
                         <div class="tags display-flex gap">
@@ -148,7 +129,7 @@
 
             <div class="col-9">
                 <div class="shop-heading display-flex content-center scheme-dark">
-                    <div class="block-title">
+                    <div class="block-title ">
                         <h4 class="title">Shop</h4>
                     </div>
                     <div class="text-right display-flex align-center">
@@ -170,7 +151,7 @@
                     </div>
                 </div>
 
-                <div class="products scheme-dark">
+                <div class="products scheme-dark row-spacing">
                     <div class="row content-center">
                         <div class="col-3">
                             <div class="product hot">
