@@ -12,7 +12,7 @@
             </ul>
 
             <div class="products-on-page">
-                <p class="subtitle">Showing 1-16 of 617 results</p>
+                <p class="size-s">Showing 1-16 of 617 results</p>
             </div>
         </div>
         <div class="row">
@@ -23,7 +23,7 @@
                             <p class="title">Category</p>
                         </div>
                         <div class="categories">
-                            <ul class="side-bar-list subtitle">
+                            <ul class="side-bar-list size-s opacity-80">
                                 <li><a href="#">Smartphones</a></li>
                                 <li><a href="#">Drone</a></li>
                                 <li><a href="#">Clothes</a></li>
@@ -44,7 +44,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="subtitle">Price $ 30 - $ 2300</p>
+                            <p class="size-s">Price $ 30 - $ 2300</p>
                         </div>
                     </div>
                     <div class="brand-block">
@@ -52,7 +52,7 @@
                             <p class="title">Brand</p>
                         </div>
                         <div class="categories">
-                            <ul class="side-bar-list subtitle">
+                            <ul class="side-bar-list size-s opacity-80">
                                 <li><a href="#">Apple</a></li>
                                 <li><a href="#">Dji</a></li>
                                 <li><a href="#">Samsung</a></li>
@@ -80,38 +80,38 @@
                         <div class="products ">
                             <div class="product design-horizontal bg-white">
                                 <div class="product-img">
-                                    <img src="/views/img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                    <img src="/views/img/products/hyperion-product-img-20.jpg" alt="Product img">
                                 </div>
 
                                 <div class="product-content">
                                     <a href="#">Eta Lite
                                         - Gas Stove</a>
                                     <p class="price">$
-                                        111.96</p>
+                                        000</p>
                                 </div>
                             </div>
                             <div class="product design-horizontal bg-white">
                                 <div class="product-img">
-                                    <img src="/views/img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                    <img src="/views/img/products/hyperion-product-img-21.jpg" alt="Product img">
                                 </div>
 
                                 <div class="product-content">
                                     <a href="#">Eta Lite
                                         - Gas Stove</a>
                                     <p class="price">$
-                                        111.96</p>
+                                        000</p>
                                 </div>
                             </div>
                             <div class="product design-horizontal bg-white">
                                 <div class="product-img">
-                                    <img src="/views/img/products/hyperion-product-img-26.jpg" alt="Product img">
+                                    <img src="/views/img/products/hyperion-product-img-22.jpg" alt="Product img">
                                 </div>
 
                                 <div class="product-content">
                                     <a href="#">Eta Lite
                                         - Gas Stove</a>
                                     <p class="price">$
-                                        111.96</p>
+                                        000</p>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="text-right display-flex align-center">
                         <span class="show-more">
-                            <p class="subtitle">
+                            <p class="size-s opacity-80">
                                 Show:
                                 <a href="#">12</a>
                                 <a href="#">16</a>

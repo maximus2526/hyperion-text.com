@@ -8,14 +8,14 @@
         <div class="container">
             <div class="block-title main display-flex column content-center">
                 <p class="text">Ask a question</p>
-                <h3 class="title">Contact Us</h3>
+                <h3 class="title bold">Contact Us</h3>
             </div>
             <div class="row">
                 <div class="col-4 ">
                     <div class="contact-blocks display-flex column gap">
                         <div class="contact-block bg-white">
                             <div class="block-title ">
-                                <h4 class="title">Inglewood</h4>
+                                <h4 class="title bold">Inglewood</h4>
                             </div>
                             <div class="contact-content">
                                 <table class="scheme-dark ">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="contact-block bg-white">
                             <div class="block-title ">
-                                <h4 class="title">Inglewood</h4>
+                                <h4 class="title bold">Inglewood</h4>
                             </div>
                             <div class="contact-content">
                                 <table class="scheme-dark ">

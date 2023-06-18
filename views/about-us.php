@@ -19,7 +19,7 @@
                             </div>
                             <div class="info-content">
                                 <p class="big-num">01.</p>
-                                <h4 class="title">Big Friendly Team</h4>
+                                <h4 class="title bold">Big Friendly Team</h4>
                                 <p class="text">Imagine was you removal
                                     raising
                                     gravity. Unsatiable understood or
@@ -40,7 +40,7 @@
                             </div>
                             <div class="info-content">
                                 <p class="big-num">02.</p>
-                                <h4 class="title">Fast and quality
+                                <h4 class="title bold">Fast and quality
                                     service</h4>
                                 <p class="text">Imagine was you removal
                                     raising
@@ -61,7 +61,7 @@
                             </div>
                             <div class="info-content">
                                 <p class="big-num">03.</p>
-                                <h4 class="title">Many partners</h4>
+                                <h4 class="title bold">Many partners</h4>
                                 <p class="text">Imagine was you removal
                                     raising
                                     gravity. Unsatiable understood or
@@ -85,7 +85,7 @@
                 <div class="col-4">
                     <div class="team-content">
                         <p class="subtitle">Our friendly team</p>
-                        <h4 class="title">Our Teammembers</h4>
+                        <h4 class="title bold">Our Teammembers</h4>
                         <p class="text">Imagine was you removal
                             raising
                             gravity. Unsatiable understood or
@@ -206,7 +206,7 @@
                 <div class="col-6">
                     <div class="block-title">
                         <p class="subtitle">Questions and answers</p>
-                        <h3 class="title">
+                        <h3 class="title bold">
                             if you have questions
                             just contact us
                         </h3>
