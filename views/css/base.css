@@ -76,12 +76,20 @@
 .info-block {
   gap: 40px;
 }
+.info-block img {
+  min-width: 30px;
+}
 .info-block .subtitle {
   margin-bottom: 0;
 }
 .info-block .title {
   margin-bottom: 15px;
   font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .info-block {
+    flex-direction: column;
+  }
 }
 
 .list-menu li {
@@ -309,16 +317,21 @@
   background: #1169b6;
   border: 1px solid #1169b6;
   border-radius: 5px;
-  height: 44px;
-  min-width: 50px;
+  height: 40px;
+  min-width: 40px;
 }
 .input-form .input-button:hover {
   background: gray;
 }
 
 .has-dropdown > ::after {
-  content: url("../../img/svg/dropdown-sign.svg");
+  filter: invert(100%);
+  content: url("../img/svg/dropdown-sign.svg");
   margin-left: 10px;
+}
+
+.no-filter ::after {
+  filter: invert(0%);
 }
 
 .space-between {
@@ -334,9 +347,6 @@
 .scheme-light a:hover {
   color: #617cf3;
 }
-.scheme-light *::after {
-  filter: invert(0%);
-}
 
 .usa {
   display: inline-block;
@@ -350,9 +360,6 @@
 }
 .scheme-dark a:hover {
   color: #617cf3;
-}
-.scheme-dark *::after {
-  filter: none;
 }
 
 .style-bordered > :not(:last-child)::after {
@@ -543,6 +550,11 @@ h2 {
 .header-top .row .nav {
   gap: 0;
 }
+@media screen and (max-width: 768px) {
+  .header-top .row {
+    flex-direction: column;
+  }
+}
 
 .header-middle .row {
   height: 92px;
@@ -555,16 +567,19 @@ h2 {
 .header-middle .profile-element span {
   margin-left: 10px;
 }
-.header-middle .profile-element a {
-  display: flex;
-  position: relative;
-  align-items: center;
-}
 .header-middle .profile-element.wish {
   margin: 0 20px;
 }
 .header-middle [class^=col-] {
   flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .header-middle .logo {
+    justify-self: center;
+  }
+  .header-middle .row {
+    flex-direction: column;
+  }
 }
 
 .header-bottom .row {
@@ -583,14 +598,34 @@ h2 {
   background: #000000;
   border-radius: 5px 5px 0 0;
 }
-.header-bottom .dropdown-title :first-child {
+.header-bottom .dropdown-title .browse-sign {
+  margin-right: 15px;
   margin-left: 10px;
 }
-.header-bottom .dropdown-title :first-child .browse-sign {
-  margin-right: 15px;
-}
-.header-bottom .dropdown-title :last-child {
+.header-bottom .dropdown-title .dropdown-icon {
   margin-right: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .header-bottom .dropdown {
+    display: none;
+  }
+  .header-bottom .dropdown-title {
+    border-radius: 5px 5px 0 0;
+    min-width: 60px;
+  }
+  .header-bottom .dropdown-title .button-title,
+  .header-bottom .dropdown-title .right {
+    display: none;
+    margin: 0;
+  }
+  .header-bottom .dropdown-title .left {
+    width: 100%;
+    text-align: center;
+  }
+  .header-bottom .dropdown-title .browse-sign {
+    width: 60%;
+    margin: 0;
+  }
 }
 .header-bottom .dropdown {
   position: absolute;
@@ -606,9 +641,14 @@ h2 {
 .header-bottom p {
   margin-bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  .header-bottom .nav {
+    justify-content: space-between;
+  }
+}
 
 .subscribe {
-  background: no-repeat url("../../img/hyperion-subscribe-bg.jpg");
+  background: no-repeat url("../img/hyperion-subscribe-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 50px 0;
@@ -620,6 +660,11 @@ h2 {
 .subscribe .input-button {
   height: 40px;
   width: 135px;
+}
+@media screen and (max-width: 1200px) {
+  .subscribe .info-block {
+    flex-direction: row;
+  }
 }
 
 .footer-menu {
@@ -635,4 +680,10 @@ h2 {
 }
 .partnership .col-auto {
   gap: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+  }
 }/*# sourceMappingURL=base.css.map */

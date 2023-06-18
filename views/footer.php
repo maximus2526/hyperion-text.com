@@ -9,7 +9,7 @@
                         </div>
 
                         <div class="info-content right">
-                            <p class="title">Free Shipping</p>
+                            <h5 class="title">Free Shipping</h5>
                             <p class="subtitle">When ordering above
                                 $100</p>
                         </div>
@@ -23,7 +23,7 @@
                         </div>
 
                         <div class="info-content right">
-                            <p class="title">Safe Shopping</p>
+                            <h5 class="title">Safe Shopping</h5>
                             <p class="subtitle">Encypted payment</p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="info-content right">
-                            <p class="title">Online Pay</p>
+                            <h5 class="title">Online Pay</h5>
                             <p class="subtitle">Support for multiple
                                 services</p>
                         </div>
@@ -49,7 +49,7 @@
                         </div>
 
                         <div class="info-content right">
-                            <p class="title">24/7 Support</p>
+                            <h5 class="title">24/7 Support</h5>
                             <p class="subtitle">Ready to answer
                                 questions</p>
                         </div>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-2">
                     <div class="title">
-                        <h3>Our Stores</h3>
+                        <h5>Our Stores</h5>
                     </div>
                     <ul class="list-menu">
                         <li><a class="subtitle" href="#">New York</a></li>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-2">
                     <div class="title">
-                        <h3>Information</h3>
+                        <h5>Information</h5>
                     </div>
                     <ul class="list-menu">
                         <li><a class="subtitle" href="#">Our Contacts</a></li>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-2">
                     <div class="title">
-                        <h3>Our Apps</h3>
+                        <h5>Our Apps</h5>
                     </div>
                     <ul class="list-menu">
                         <li><a href="#"><img src="/views/img/svg/google-play.svg" alt></a></li>

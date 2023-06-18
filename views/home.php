@@ -107,7 +107,7 @@
     </div>
     <div class="promo-banner scheme-light">
         <div class="container">
-            <div class="row">
+            <div class="row row-spacing ">
                 <div class="col-3">
                     <div class="banner">
                         <div class="banner-bg">
@@ -406,104 +406,112 @@
         </div>
     </div>
     <div class="hot-category">
-        <div class="container">
-            <div class="block-title display-flex">
-                <img src="/views/img/svg/hyperion-booster.svg" alt="Hot Category">
-                <h4 class="title">Hot Category</h4>
-            </div>
-            <div class="row wrap">
-                <div class="col-3">
-                    <div class="banner scheme-light">
-                        <div class="banner-bg">
-                            <img src="/views/img/hyperion-banner-5.jpg" alt>
-                        </div>
-
-                        <div class="banner-content display-flex column">
-                            <div class="banner-switch display-flex gap">
-                                <a href="#"><img src="/views/img/svg/arrow/left.svg" alt></a>
-                                <a href="#"><img src="/views/img/svg/arrow/right.svg" alt></a>
+        <div class="hot-categories-block">
+            <div class="container">
+                <div class="block-title display-flex">
+                    <img src="/views/img/svg/hyperion-booster.svg" alt="Hot Category">
+                    <h4 class="title">Hot Category</h4>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="banner scheme-light">
+                            <div class="banner-bg">
+                                <img src="/views/img/hyperion-banner-5.jpg" alt>
                             </div>
-                            <div class="description display-flex column">
-                                <p class="subtitle">
-                                    20% discount on children's toys
-                                </p>
-                                <h4 class="title">
-                                    More And Higher Discounts On Toys
-                                </h4>
-                                <div class="scheme-dark">
-                                    <a href="#" class="btn">To Shop</a>
-                                </div>
 
+                            <div class="banner-content display-flex column">
+                                <div class="banner-switch display-flex gap">
+                                    <a href="#"><img src="/views/img/svg/arrow/left.svg" alt></a>
+                                    <a href="#"><img src="/views/img/svg/arrow/right.svg" alt></a>
+                                </div>
+                                <div class="description display-flex column">
+                                    <p class="subtitle">
+                                        20% discount on children's toys
+                                    </p>
+                                    <h4 class="title">
+                                        More And Higher Discounts On Toys
+                                    </h4>
+                                    <div class="scheme-dark">
+                                        <a href="#" class="btn">To Shop</a>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-9">
-                    <div class="categories row-spacing">
-                        <div class="row scheme-dark">
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Smartphones</h5>
-                                        <a href="#">View More →</a>
-                                    </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-1.jpg" alt="Category img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Clothes</h5>
-                                        <a href="#">View More →</a>
-                                    </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-2.jpg" alt="Category img">
+                    <div class="col-9">
+                        <div class="categories row-spacing">
+                            <div class="row scheme-dark">
+                                <div class="col-4 ">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Smartphones</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-1.jpg"
+                                                alt="Category img">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Toys</h5>
-                                        <a href="#">View More →</a>
-                                    </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-3.jpg" alt="Category img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Home Security</h5>
-                                        <a href="#">View More →</a>
-                                    </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-4.jpg" alt="Category img">
+                                <div class="col-4">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Clothes</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-2.jpg"
+                                                alt="Category img">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Furniture</h5>
-                                        <a href="#">View More →</a>
-                                    </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-5.jpg" alt="Category img">
+                                <div class="col-4">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Toys</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-3.jpg"
+                                                alt="Category img">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="category display-flex">
-                                    <div class="description">
-                                        <h5 class="title">Smart Watches</h5>
-                                        <a href="#">View More →</a>
+                                <div class="col-4">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Home Security</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-4.jpg"
+                                                alt="Category img">
+                                        </div>
                                     </div>
-                                    <div class="category-img">
-                                        <img src="/views/img/categories/hyperion-category-img-6.jpg" alt="Category img">
+                                </div>
+                                <div class="col-4">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Furniture</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-5.jpg"
+                                                alt="Category img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="category bg-white display-flex">
+                                        <div class="description">
+                                            <h5 class="title">Smart Watches</h5>
+                                            <a href="#">View More →</a>
+                                        </div>
+                                        <div class="category-img">
+                                            <img src="/views/img/categories/hyperion-category-img-6.jpg"
+                                                alt="Category img">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +580,7 @@
     </div>
     <div class="recomend-products">
         <div class="container">
-            <div class="row">
+            <div class="row main">
                 <div class="col-4">
                     <div class="banners display-flex column gap">
                         <div class="banner out-shadow">

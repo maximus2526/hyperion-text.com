@@ -67,6 +67,7 @@
 
     .product-img {
         flex: 0 0 auto;
+
         & img {
             max-width: 120px;
             padding: 15px;
@@ -75,6 +76,7 @@
 
     .product-content {
         flex: 1 1 auto;
+
         p {
             margin-bottom: 0;
         }
@@ -90,11 +92,16 @@
 // info-blocks
 
 .info-blocks {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
+
 
 .info-block {
     gap: 40px;
+
+    & img {
+        min-width: 30px;
+    }
 
     & .subtitle {
         margin-bottom: 0;
@@ -103,6 +110,10 @@
     & .title {
         margin-bottom: 15px;
         font-weight: 500;
+    }
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column; 
     }
 }
 
@@ -207,11 +218,14 @@
     font-weight: 700;
 }
 
+
+
 .read-more-btn {
     background: #1169b6;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
+
     &:hover {
         color: white;
         background: #073d6d;
@@ -382,8 +396,8 @@
         background: #1169b6;
         border: 1px solid #1169b6;
         border-radius: 5px;
-        height: 44px;
-        min-width: 50px;
+        height: 40px;
+        min-width: 40px;
 
         &:hover {
             background: gray;
@@ -393,8 +407,16 @@
 
 .has-dropdown {
     >::after {
-        content: url("../../img/svg/dropdown-sign.svg");
+        filter: invert(100%);
+        content: url("../img/svg/dropdown-sign.svg");
         margin-left: 10px;
+
+    }
+}
+
+.no-filter {
+    ::after {
+        filter: invert(0%);
     }
 }
 
@@ -412,10 +434,6 @@
             color: #617cf3;
         }
     }
-
-    & *::after {
-        filter: invert(0%);
-    }
 }
 
 .usa {
@@ -432,11 +450,6 @@
             color: #617cf3;
         }
     }
-
-    & *::after {
-        filter: none;
-    }
-
 }
 
 .style-bordered {
@@ -535,13 +548,14 @@ h2 {
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
-    
+
 }
 
 .row-spacing {
     .row {
         margin-bottom: -20px;
     }
+
     [class^="col-"] {
         padding-bottom: 20px;
     }
@@ -662,6 +676,12 @@ h2 {
         }
 
     }
+
+    @media screen and (max-width: 768px) {
+        .row {
+            flex-direction: column;
+        }
+    }
 }
 
 // header-middle
@@ -682,12 +702,6 @@ h2 {
         span {
             margin-left: 10px;
         }
-
-        a {
-            display: flex;
-            position: relative;
-            align-items: center;
-        }
     }
 
     .profile-element.wish {
@@ -699,6 +713,18 @@ h2 {
     [class^="col-"] {
         flex-direction: row;
     }
+
+    @media screen and (max-width: 768px) {
+        .logo {
+            justify-self: center;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+    }
+
+
 }
 
 
@@ -723,16 +749,41 @@ h2 {
         background: #000000;
         border-radius: 5px 5px 0 0;
 
-        :first-child {
-            .browse-sign {
-                margin-right: 15px;
-            }
-
+        .browse-sign {
+            margin-right: 15px;
             margin-left: 10px;
         }
 
-        :last-child {
+        .dropdown-icon {
             margin-right: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        .dropdown {
+            display: none;
+        }
+
+        .dropdown-title {
+            border-radius: 5px 5px 0 0;
+
+            .button-title,
+            .right {
+                display: none;
+                margin: 0;
+            }
+
+            .left {
+                width: 100%;
+                text-align: center;
+            }
+
+            .browse-sign {
+                width: 60%;
+                margin: 0;
+            }
+
+            min-width: 60px;
         }
     }
 
@@ -753,6 +804,11 @@ h2 {
         margin-bottom: 0;
     }
 
+    @media screen and (max-width: 768px) {
+        .nav {
+            justify-content: space-between;
+        }
+    }
 
 }
 
@@ -763,7 +819,7 @@ h2 {
 
 // subscribe 
 .subscribe {
-    background: no-repeat url('../../img/hyperion-subscribe-bg.jpg');
+    background: no-repeat url('../img/hyperion-subscribe-bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px 0;
@@ -778,6 +834,11 @@ h2 {
         width: 135px;
     }
 
+    @media screen and (max-width: 1200px) {
+        .info-block {
+            flex-direction: row; 
+        }
+    }
 }
 
 
@@ -806,8 +867,9 @@ h2 {
 
 
 
-// @media screen and (max-width: 1800px) {
-//     .top-brands .top-brands-bg {
-//         width: 100%;
-//     }
-// }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+    }
+}

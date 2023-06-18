@@ -24,10 +24,10 @@
                         </div>
                         <div class="categories">
                             <ul class="side-bar-list subtitle">
-                                <li><a href>Smartphones</a></li>
-                                <li><a href>Drone</a></li>
-                                <li><a href>Clothes</a></li>
-                                <li><a href>Furniture</a></li>
+                                <li><a href="#">Smartphones</a></li>
+                                <li><a href="#">Drone</a></li>
+                                <li><a href="#">Clothes</a></li>
+                                <li><a href="#">Furniture</a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,10 +53,10 @@
                         </div>
                         <div class="categories">
                             <ul class="side-bar-list subtitle">
-                                <li><a href>Apple</a></li>
-                                <li><a href>Dji</a></li>
-                                <li><a href>Samsung</a></li>
-                                <li><a href>Xiaomi</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Dji</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Xiaomi</a></li>
                             </ul>
                         </div>
                     </div>
@@ -122,11 +122,11 @@
                             <p class="title">Tags</p>
                         </div>
                         <div class="tags display-flex gap">
-                            <a class="tag" href>Electric</a>
-                            <a class="tag" href>Decore</a>
-                            <a class="tag" href>Home</a>
-                            <a class="tag" href>Garden</a>
-                            <a class="tag" href>Clothes</a>
+                            <a class="tag" href="#">Electric</a>
+                            <a class="tag" href="#">Decore</a>
+                            <a class="tag" href="#">Home</a>
+                            <a class="tag" href="#">Garden</a>
+                            <a class="tag" href="#">Clothes</a>
                         </div>
                     </div>
                 </div>

@@ -1,46 +1,15 @@
-// pagination
-.pagination {
-    margin: 0 auto;
-    margin-bottom: 100px;
-    width: fit-content;
-    position: relative;
 
-    p {
-        margin-bottom: 0;
-    }
-
-    & .active {
-        color: white;
-    }
-
-    .pagination-button a {
-        display: block;
-
-        &:active {
-            color: #e6e6e6;
+.about-us {
+    @media screen and (max-width: 1200px) {
+        & .row {
+            flex-direction: column;
         }
-    }
 
-    .pagination-button.active a {
-        background-color: #1169b6;
-        border: 1px solid black;
-    }
+        & .col-4 {
+            max-width: 100%;
+            flex-basis: 33.33%;
+        }
 
-    .pagination-button a {
-
-        background-color: #ffffff;
-        border: 1px solid black;
-        padding: 5px 12px;
-    }
-
-    .text {
-        opacity: 100%;
-        font-size: 15px;
-    }
-
-    .arrow-right img {
-        filter: invert(0%);
-        margin-left: 2px;
     }
 }
 
@@ -103,100 +72,127 @@
         }
     }
 }
+    
 
 
 
-.our-team {
-    margin-bottom: 100px;
+    .our-team {
+        margin-bottom: 100px;
 
-    .members {
-        width: 95%;
-        margin: 0 auto;
-    }
+        .members {
+            width: 95%;
+            margin: 0 auto;
+        }
 
-    .carousel-bg {
-        width: 100%;
-        margin: 0 auto;
-    }
+        .carousel-bg {
+            width: 100%;
+            margin: 0 auto;
+        }
 
-    .member {
-        margin-top: -100px;
-        padding: 20px;
-    }
+        .member {
+            margin-top: -100px;
+            padding: 20px;
+        }
 
-    .title {
-        margin: 20px 0;
-    }
-
-    .text {
-        margin-bottom: 20px;
-    }
-
-    .team-img img {
-        border-radius: 100%;
-    }
-
-    .member-bio .subtitle {
-        margin-bottom: 20px;
-    }
-}
-
-// questions
-
-.questions {
-
-    padding-bottom: 100px;
-
-    .block-title {
         .title {
             margin: 20px 0;
-            text-transform: capitalize;
-            width: 60%;
+        }
+
+        .text {
+            margin-bottom: 20px;
+        }
+
+        .team-img img {
+            border-radius: 100%;
+        }
+
+        .member-bio .subtitle {
+            margin-bottom: 20px;
+        }
+
+
+        @media screen and (max-width: 1200px) {
+
+            .team-content {
+                margin-bottom: 50px;
+                text-align: center;
+            }
+
+            .members {
+                width: 85%;
+            }
+
+            & .col-4 {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+            & .col-8 {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+
+
+
         }
     }
 
-    .stack-photos {
-        overflow: hidden;
+    // questions
 
-        img {
-            max-width: 500px;
+    .questions {
+
+        padding-bottom: 100px;
+
+        .block-title {
+            .title {
+                margin: 20px 0;
+                text-transform: capitalize;
+                width: 60%;
+            }
         }
 
-        & :last-child {
-            margin-top: -200px;
-            margin-left: auto;
-            max-width: 300px;
-            top: 50%;
-            left: 50%;
-        }
-    }
-}
+        .stack-photos {
+            overflow: hidden;
 
-.accordion {
-    & :first-child {
-        .accordion-heading {
             img {
-                rotate: 180deg;
+                max-width: 500px;
+            }
+
+            & :last-child {
+                margin-top: -200px;
+                margin-left: auto;
+                max-width: 300px;
+                top: 50%;
+                left: 50%;
             }
         }
     }
 
-    .accordion-heading {
-        padding: 20px 0;
-
-        img {
-            filter: invert(100%);
-        }
-    }
-
-    .accordion-item {
-        .title {
-            font-size: 18px;
+    .accordion {
+        & :first-child {
+            .accordion-heading {
+                img {
+                    rotate: 180deg;
+                }
+            }
         }
 
-        border-top: 1px solid #ebebeb;
+        .accordion-heading {
+            padding: 20px 0;
 
+            img {
+                filter: invert(100%);
+            }
+        }
+
+        .accordion-item {
+            .title {
+                font-size: 18px;
+            }
+
+            border-top: 1px solid #ebebeb;
+
+        }
+
+        border-bottom: 1px solid #ebebeb;
     }
-
-    border-bottom: 1px solid #ebebeb;
-}

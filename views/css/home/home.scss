@@ -1,8 +1,6 @@
 // Slider
 
-.slider-block {
-    margin-bottom: 40px;
-}
+
 
 .slider {
 
@@ -31,6 +29,7 @@
 
     .product {
         box-shadow: none;
+        max-height: 140px;
     }
 
     >.row {
@@ -54,6 +53,7 @@
     .slider-description {
         justify-content: space-between;
         height: 100%;
+        margin-left: 20px;
 
         h4 {
             margin-bottom: 10px;
@@ -71,6 +71,26 @@
     }
 }
 
+.slider-block {
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 1200px) {
+        .col-3 {
+            display: none;
+        }
+
+        .col-9 {
+            flex-basis: 100%;
+            max-width: 100%;
+        }
+
+        .slider-bg {
+            left: 0;
+        }
+
+    }
+}
+
 // banner
 .banner {
     position: relative;
@@ -78,15 +98,14 @@
 
     .banner-bg {
         & img {
-            min-width: 250px;
+            width: 100%;
             border-radius: 5px;
         }
     }
 
     .banner-content {
-        width: 100%;
-        padding: 20px;
         position: absolute;
+        padding: 20px;
         top: 0px;
         left: 0px;
         bottom: 0px;
@@ -106,6 +125,33 @@
     .title {
         margin-bottom: 15px;
     }
+
+    .subtitle {
+        margin-bottom: 10px;
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        .banner-bg {
+            & img {
+                object-fit: cover;
+                height: 220px;
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .col-3 {
+            flex-grow: 0;
+            flex-basis: calc((100% / 12) * 6);
+            max-width: calc((100%/12) * 6);
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+
 }
 
 // Bestsellers
@@ -127,7 +173,8 @@
         border-radius: 5px;
         min-width: 200px;
     }
-    @media screen and (max-width: 1300px)  {
+
+    @media screen and (max-width: 1300px) {
         width: 90%;
     }
 }
@@ -144,11 +191,11 @@
     margin-top: -200px;
 }
 
-.carousel-bg  {
+.carousel-bg {
     background: #f1bb2f;
     border-radius: 5px;
     height: 200px;
-    width: calc(100% + 140px);  
+    width: calc(100% + 140px);
     margin: 0 auto;
     margin-left: -70px;
 }
@@ -160,17 +207,20 @@
 }
 
 .top-brands {
+    margin: 0 auto;
     margin-bottom: 50px;
+
     .brand {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    @media screen and (max-width: 1300px)  {
+
+    @media screen and (max-width: 1300px) {
         width: 90%;
-        .carousel-bg  {
-            width: 100%;  
+
+        .carousel-bg {
+            width: 100%;
             margin: 0 auto;
         }
     }
@@ -187,15 +237,25 @@
     width: 100%;
     height: 100%;
 
-    .banner {
-        flex: 0 0 auto;
-        margin-bottom: 40px;
+    .hot-categories-block {
+        margin-bottom: 50px;
     }
 
-    .banner-bg img {
-        width: 100%;
-        border-radius: 5px;
+    .banner {
+        height: 100%;
+        margin-bottom: 40px;
+
+        & .banner-bg {
+            height: 100%;
+
+            & img {
+                height: 100%;
+            }
+        }
+
     }
+
+
 
     .banner-content {
         justify-content: space-between;
@@ -222,6 +282,7 @@
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 0 25px rgb(230, 230, 230);
+
         .description {
             padding: 5px;
             flex-basis: auto;
@@ -233,7 +294,8 @@
             flex: 0 0 100px;
             height: 100%;
             width: 100%;
-            img {     
+
+            img {
                 object-fit: cover;
                 object-position: center
             }
@@ -241,7 +303,7 @@
 
     }
 
-  
+
 
     .info-blocks {
         padding-bottom: 50px;
@@ -298,13 +360,62 @@
         max-width: 200px;
     }
 
+    @media screen and (max-width: 1200px) {
+        .row.main {
+            flex-direction: column;
+        }
 
+        & .banners {
+            flex-direction: row;
+            margin-bottom: 150px;
+            .banner {
+                width: 100%;
+                height: fit-content;
+            }
+
+            .banner-bg img {
+                width: 100%;
+            }
+
+            .banner-content {
+                width: 100%;
+            }
+        }
+
+        .col-4 {
+            flex-basis: 100%;
+            max-width: 100%;
+
+        }
+
+        .col-8 {
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+
+
+    }
 }
 
 
 // our-blog
 
 .articles {
+    margin-bottom: 50px;
+
+
+    @media screen and (max-width: 1200px) {
+        .row {
+            flex-wrap: wrap;
+
+            .col-3 {
+                max-width: 100%;
+                flex-basis: 50%;
+                margin-bottom: 20px;
+            }
+        }
+
+    }
 
     article {
         background: white;
@@ -345,5 +456,5 @@
     }
 
 
-    margin-bottom: 50px;
+
 }

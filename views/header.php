@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +22,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-auto col-right content-center">
+                    <div class="col-auto col-right content-center no-filter">
                         <p class="subtitle">Ample end might folly quiet one
                             set spoke.</p>
                         <ul class="nav style-bordered">
@@ -40,18 +41,20 @@
         </div>
         <div class="header-middle">
             <div class="container scheme-dark">
-                <div class="row">
-                    <div class="col-fixed">
-                        <a href="/">
-                            <img src="/views/img/svg/hyperion-logo.svg" alt="Hyperion logo">
-                        </a>
+                <div class="row content-center">
+                    <div class="col-fixed ">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="/views/img/svg/hyperion-logo.svg" alt="Hyperion logo">
+                            </a>
+                        </div>
                     </div>
 
                     <div class="col-auto">
                         <form class="input-form display-flex">
                             <div class="input-field">
                                 <input placeholder="Smart watch" type="text">
-                                <div class="select-category has-dropdown scheme-dark">
+                                <div class="select-category scheme-dark has-dropdown ">
                                     <a class="display-flex" href="#">Select
                                         Category</a>
                                 </div>
@@ -64,22 +67,21 @@
                     </div>
 
                     <div class="col-fixed">
-
                         <div class="profile-element">
-                            <a href="#">
+                            <a  class="content-center display-flex" href="#">
                                 <img src="/views/img/svg/account.svg" alt="Account">
                                 <span>My account</span>
                             </a>
                         </div>
 
                         <div class="profile-element wish">
-                            <a href="#">
+                            <a class="content-center display-flex" href="#">
                                 <img src="/views/img/svg/wish.svg" alt="Wish">
                             </a>
                         </div>
 
                         <div class="profile-element">
-                            <a href="#">
+                            <a  class="content-center display-flex" href="#">
                                 <img src="/views/img/svg/shop.svg" alt="Shop">
                                 <span>$280.00</span>
                             </a>
@@ -96,13 +98,16 @@
                         <div class="browse-categories">
                             <div class="heading scheme-light">
                                 <div class="dropdown-title">
-                                    <div class="display-flex content-center">
-                                        <img class="browse-sign" src="/views/img/svg/browse.svg" alt="Browse Categories Icon">
+                                    <div class="left display-flex content-center">
+                                        <img class="browse-sign" src="/views/img/svg/browse.svg"
+                                            alt="Browse Categories Icon">
                                         <span class="button-title">Browse
                                             Categories</span>
                                     </div>
+                                    <div class="right">
+                                        <img class="dropdown-icon" src="/views/img/svg/dropdown-sign.svg" alt>
+                                    </div>
 
-                                    <img class="dropdown-icon" src="/views/img/svg/dropdown-sign.svg" alt>
 
                                 </div>
                             </div>
@@ -123,7 +128,8 @@
                                             <a href="#">
                                                 <span class="display-flex">
                                                     <img class="item-icon"
-                                                        src="/views/img/svg/category-menu/hyperion-line-volunteer.svg" alt>
+                                                        src="/views/img/svg/category-menu/hyperion-line-volunteer.svg"
+                                                        alt>
                                                     <p>Mans clothing</p>
                                                 </span>
                                                 <img class="dropdown-icon" src="/views/img/svg/dropdown-sign.svg" alt>
@@ -133,7 +139,8 @@
                                             <a href="#">
                                                 <span class="display-flex">
                                                     <img class="item-icon"
-                                                        src="/views/img/svg/category-menu/hyperion-line-smartphone.svg" alt>
+                                                        src="/views/img/svg/category-menu/hyperion-line-smartphone.svg"
+                                                        alt>
                                                     <p>Phones and
                                                         accessories</p>
                                                 </span>
@@ -193,12 +200,12 @@
                             <li class="has-dropdown"><a href="/?action=home"><span class="active">Home</span></a></li>
                             <li class="has-dropdown"><a href="/?action=shop">Shop</a></li>
                             <li class="has-dropdown"><a href="#">Blog</a></li>
-                            <li class="has-dropdown"><a href="/?action=about-us">About us</a></li>
-                            <li class="has-dropdown"><a href="/?action=contact-us">
+                            <li><a href="/?action=about-us">About us</a></li>
+                            <li><a href="/?action=contact-us">
                                     Contact us</a></li>
                         </ul>
                     </div>
-                    <div class="col-fixed style-bordered col-right display-flex">
+                    <div class="col-auto style-bordered col-right display-flex">
                         <a href="#" class="purchase-now">Purchase Now!</a>
                         <p>Free Shipping from $300</p>
                     </div>

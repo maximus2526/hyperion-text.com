@@ -1,37 +1,11 @@
-.pagination {
-  margin: 0 auto;
-  margin-bottom: 100px;
-  width: fit-content;
-  position: relative;
-}
-.pagination p {
-  margin-bottom: 0;
-}
-.pagination .active {
-  color: white;
-}
-.pagination .pagination-button a {
-  display: block;
-}
-.pagination .pagination-button a:active {
-  color: #e6e6e6;
-}
-.pagination .pagination-button.active a {
-  background-color: #1169b6;
-  border: 1px solid black;
-}
-.pagination .pagination-button a {
-  background-color: #ffffff;
-  border: 1px solid black;
-  padding: 5px 12px;
-}
-.pagination .text {
-  opacity: 100%;
-  font-size: 15px;
-}
-.pagination .arrow-right img {
-  filter: invert(0%);
-  margin-left: 2px;
+@media screen and (max-width: 1200px) {
+  .about-us .row {
+    flex-direction: column;
+  }
+  .about-us .col-4 {
+    max-width: 100%;
+    flex-basis: 33.33%;
+  }
 }
 
 .about-us .info-blocks {
@@ -102,6 +76,23 @@
 }
 .our-team .member-bio .subtitle {
   margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .our-team .team-content {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .our-team .members {
+    width: 85%;
+  }
+  .our-team .col-4 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .our-team .col-8 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 .questions {

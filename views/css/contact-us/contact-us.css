@@ -55,4 +55,8 @@ table td {
 }
 .questions-form .big-input {
   min-height: 100px;
+}
+
+.another-contact-method .read-more-btn {
+  white-space: nowrap;
 }/*# sourceMappingURL=contact-us.css.map */
