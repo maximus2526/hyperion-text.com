@@ -172,10 +172,19 @@
     .bestseller-img {
         border-radius: 5px;
         min-width: 200px;
+        max-width: 100%;
     }
 
     @media screen and (max-width: 1300px) {
         width: 90%;
+
+        .col-2 {
+            max-width: 80%;
+        }
+
+        .product-img {
+            max-width: 200px;
+        }
     }
 }
 
@@ -223,6 +232,10 @@
             width: 100%;
             margin: 0 auto;
         }
+
+        .brand {
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -241,40 +254,37 @@
         margin-bottom: 50px;
     }
 
-    .banner {
+    .banner-bg {
         height: 100%;
-        margin-bottom: 40px;
+        min-width: 200px;
 
-        & .banner-bg {
+        & img {
             height: 100%;
-
-            & img {
-                height: 100%;
-            }
-        }
-
-    }
-
-
-
-    .banner-content {
-        justify-content: space-between;
-        margin: 20px 0px;
-
-        .description {
-            .btn {
-                margin-top: 20px;
-                font-weight: 600;
-                background: #ffffff;
-                border-radius: 5px;
-                padding: 10px 15px;
-            }
-
-            .title {
-                padding-bottom: 30px;
-            }
         }
     }
+
+}
+
+
+
+.banner-content {
+    justify-content: space-between;
+    margin: 20px 0px;
+
+    .description {
+        .btn {
+            margin-top: 20px;
+            font-weight: 600;
+            background: #ffffff;
+            border-radius: 5px;
+            padding: 10px 15px;
+        }
+
+        .title {
+            padding-bottom: 30px;
+        }
+    }
+
 
     .category {
         min-height: 180px;
@@ -286,14 +296,15 @@
         .description {
             padding: 5px;
             flex-basis: auto;
-            flex: 1 1 auto;
+
         }
 
         .category-img {
             padding: 5px;
-            flex: 0 0 100px;
             height: 100%;
-            width: 100%;
+            max-width: 100%;
+            min-width: 100px;
+            flex-basis: auto;
 
             img {
                 object-fit: cover;
@@ -368,6 +379,7 @@
         & .banners {
             flex-direction: row;
             margin-bottom: 150px;
+
             .banner {
                 width: 100%;
                 height: fit-content;

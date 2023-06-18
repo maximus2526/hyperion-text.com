@@ -534,9 +534,6 @@ h2 {
   height: 40px;
   align-items: center;
 }
-.header-top .row .subtitle {
-  opacity: 95%;
-}
 .header-top .row > :first-child .nav {
   display: flex;
   gap: 20px;

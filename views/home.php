@@ -12,13 +12,13 @@
                         <div class="row row-spacing">
                             <div class="col-6">
                                 <div class="slider-description display-flex column scheme-light">
-                                    <div class="slider-content opacity-80">
-                                        <p class="subtitle">Subtitle for
+                                    <div class="slider-content ">
+                                        <p class="subtitle opacity-80">Subtitle for
                                             this title</p>
-                                        <h4 class="title">Camping &
+                                        <h4 class="title bold">Camping &
                                             Hiking Products
                                             Discount</h4>
-                                        <p class="description">Unpacked
+                                        <p class="description opacity-80">Unpacked
                                             reserver sir offering bed
                                             judgment may and
                                             quitting speaking.</p>
@@ -107,7 +107,7 @@
     </div>
     <div class="promo-banner scheme-light">
         <div class="container">
-            <div class="row row-spacing ">
+            <div class="row row-spacing">
                 <div class="col-3">
                     <div class="banner">
                         <div class="banner-bg">
@@ -193,7 +193,7 @@
             <div class="products scheme-dark">
                 <div class="row content-center">
                     <div class="col-2">
-                        <div class="product hot">
+                        <div class="product hot ">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-1.jpg" alt="product's img">
                             </div>
@@ -309,7 +309,7 @@
             <div class="carousel-bg"></div>
             <div class="brands">
                 <div class="top-brands-heading scheme-light">
-                    <div class="row content-center">
+                    <div class="row content-center row-spacing">
                         <div class="col-auto">
                             <div class="block-title display-flex">
                                 <img src="/views/img/svg/hyperion-crown.svg" alt="crown">

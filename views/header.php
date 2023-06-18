@@ -16,20 +16,20 @@
                 <div class="row">
                     <div class="col-auto">
                         <ul class="nav">
-                            <li class="subtitle">Call Now: <a href="tel:+035527171070">(+035)
+                            <li class="size-s opacity-80">Call Now: <a href="tel:+035527171070">(+035)
                                     527-1710-70</a></li>
-                            <li class="subtitle">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
+                            <li class="size-s opacity-80">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-auto col-right content-center no-filter">
-                        <p class="subtitle">Ample end might folly quiet one
+                        <p class="subtitle opacity-80">Ample end might folly quiet one
                             set spoke.</p>
                         <ul class="nav style-bordered">
-                            <li class="has-dropdown subtitle">
+                            <li class="has-dropdown size-s opacity-80">
                                 <a href="/?currency=uan">USD</a>
                             </li>
-                            <li class="has-dropdown subtitle">
+                            <li class="has-dropdown size-s opacity-80">
                                 <a href="/?language=ua">
                                     <img class="usa" src="/views/img/svg/usa.svg" alt>
                                 </a>
