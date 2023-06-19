@@ -15,7 +15,7 @@
             <div class="container scheme-light">
                 <div class="row align-center">
                     <div class="col-auto">
-                        <ul class="nav display-flex gap">
+                        <ul class="nav display-flex">
                             <li class="size-s opacity-80">Call Now: <a href="tel:+035527171070">(+035)
                                     527-1710-70</a></li>
                             <li class="size-s opacity-80">Email: <a
@@ -196,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto scheme-dark">
+                    <div class="col-auto col-sm-10 scheme-dark ">
                         <ul class="nav">
                             <li class="has-dropdown"><a href="/?action=home"><span class="active">Home</span></a></li>
                             <li class="has-dropdown"><a href="/?action=shop">Shop</a></li>

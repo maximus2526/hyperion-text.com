@@ -1,7 +1,7 @@
 <style>
-.dropdown {
-    display: none;
-}
+    .dropdown {
+        display: none;
+    }
 </style>
 <div class="content">
     <div class="contact-us">
@@ -90,10 +90,14 @@
                                 <div class="col-12">
                                     <input placeholder="Your Message..." class="big-input" type="text">
                                 </div>
+                                <div class="col-12 ">
+                                    <div class="questions-button">
+                                        <button class="send-btn" type="submit">Send</button>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div class="questions-button">
-                                <button class="send-btn" type="submit">Send</button>
-                            </div>
+
                         </form>
 
                     </div>

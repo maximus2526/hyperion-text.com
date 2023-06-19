@@ -1,6 +1,5 @@
 .shop-heading {
   padding: 20px 0;
-  border-bottom: 1px solid #e6e6e6;
 }
 .shop-heading .breadcrumb li:not(:first-child)::before {
   content: "/";
@@ -43,6 +42,9 @@
   margin-left: 2px;
 }
 
+.show-more p {
+  margin-bottom: 0;
+}
 .show-more a::after {
   content: "/";
   margin: 0 5px;
@@ -65,7 +67,6 @@
 }
 .side-bar-list li a {
   display: block;
-  width: 100%;
   font-size: 15px;
   opacity: 70%;
 }

@@ -108,7 +108,7 @@
     <div class="promo-banner scheme-light">
         <div class="container">
             <div class="row row-spacing">
-                <div class="col-3">
+                <div class="col-3 col-md-6">
                     <div class="banner">
                         <div class="banner-bg">
                             <img src="/views/img/blog/home-blog/blog-1.png" alt>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-md-6">
                     <div class="banner">
                         <div class="banner-bg">
                             <img src="/views/img/blog/home-blog/blog-2.png" alt>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-md-6">
                     <div class="banner">
                         <div class="banner-bg">
                             <img src="/views/img/blog/home-blog/blog-3.png" alt>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 col-md-6">
                     <div class="banner">
                         <div class="banner-bg">
                             <img src="/views/img/blog/home-blog/blog-4.png" alt>
@@ -191,8 +191,8 @@
                 <h4 class="title">Bestseller</h4>
             </div>
             <div class="products scheme-dark">
-                <div class="row content-center">
-                    <div class="col-2">
+                <div class="row">
+                    <div class="col-2 col-md-4">
                         <div class="product hot ">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-1.jpg" alt="product's img">
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-4">
                         <div class="product">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-2.jpg" alt="product's img">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-4">
                         <div class="product hot">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-3.jpg" alt="product's img">
@@ -240,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-4">
                         <div class="product">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-4.jpg" alt="product's img">
@@ -256,7 +256,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-4">
                         <div class="product hot">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-5.jpg" alt="product's img">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-4">
                         <div class="product">
                             <div class="product-img">
                                 <img src="/views/img/products/hyperion-product-img-6.jpg" alt="product's img">
@@ -324,7 +324,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <h6 class="title">Xiaomi</h6>
@@ -335,7 +335,7 @@
                                 alt="Brand's product">
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/one-plus.png" alt="One-plus logo">
                             <h6 class="title">Oneplus</h6>
@@ -346,7 +346,7 @@
                                 alt="Brand's product">
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/dj.png" alt="Dji logo">
                             <h6 class="title">Dji</h6>
@@ -357,7 +357,7 @@
                                 alt="Brand's product">
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/braun.png" alt="Braun logo">
                             <h6 class="title">Braun</h6>
@@ -368,7 +368,7 @@
                                 alt="Brand's product">
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/gubi.png" alt="Gubi logo">
                             <h6 class="title">Gubi</h6>
@@ -379,7 +379,7 @@
                                 alt="Brand's product">
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-2 col-md-4">
                         <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/nike.png" alt="Xiaomi logo">
                             <h6 class="title">Nike</h6>
@@ -413,7 +413,7 @@
                     <h4 class="title">Hot Category</h4>
                 </div>
                 <div class="row space-between">
-                    <div class="col-3">
+                    <div class="col-4 col-sm-12">
                         <div class="banner scheme-light">
                             <div class="banner-bg">
                                 <img src="/views/img/hyperion-banner-5.jpg" alt>
@@ -439,10 +439,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-8 col-sm-12">
                         <div class="categories row-spacing">
                             <div class="row scheme-dark">
-                                <div class="col-4 ">
+                                <div class="col-4">
                                     <div class="category bg-white display-flex">
                                         <div class="description">
                                             <h5 class="title">Smartphones</h5>
@@ -580,8 +580,8 @@
     </div>
     <div class="recomend-products">
         <div class="container">
-            <div class="row main">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-4 col-md-12">
                     <div class="banners display-flex column gap">
                         <div class="banner out-shadow">
                             <div class="banner-bg">
@@ -630,7 +630,7 @@
 
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 col-md-12">
                     <div class="row content-center">
                         <div class="col-6 display-flex">
                             <div class="block-title display-flex">
@@ -798,9 +798,9 @@
                     <a href="#" class='switch-btn'><img src="/views/img/svg/arrow-2/right.svg" alt></a>
                 </div>
             </div>
-            <div class="articles ">
-                <div class="row">
-                    <div class="col-3">
+            <div class="articles">
+                <div class="row row-spacing">
+                    <div class="col-3 col-md-6">
                         <article>
                             <div class="article-img">
                                 <img src="/views/img/blog/hyperion-blog-1.jpg" alt>
@@ -827,7 +827,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-3 col-md-6">
                         <article>
                             <div class="article-img">
                                 <img src="/views/img/blog/hyperion-blog-2.jpg" alt>
@@ -854,7 +854,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-3 col-md-6">
                         <article>
                             <div class="article-img">
                                 <img src="/views/img/blog/hyperion-blog-3.jpg" alt>
@@ -881,7 +881,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-3 ">
+                    <div class="col-3 col-md-6">
                         <article>
                             <div class="article-img">
                                 <img src="/views/img/blog/hyperion-blog-4.jpg" alt>

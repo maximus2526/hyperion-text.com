@@ -3,6 +3,7 @@
 @import "shop/shop.css";
 @import "about-us/about-us.css";
 @import "contact-us/contact-us.css";
+@import "single-page/single-page.css";
 // @import "old-style.scss";
 
 /* Glogal options */
@@ -65,7 +66,7 @@
     @media screen and (max-width: 1200px) {
         opacity: 0%;
     }
-    
+
 }
 
 .design-horizontal {
@@ -77,7 +78,7 @@
 
         & img {
             max-width: 120px;
-            padding: 15px;
+            border-radius: 5px;
         }
     }
 
@@ -285,9 +286,7 @@
 
 
 .block-title {
-
-    padding: 20px 0;
-
+    padding-bottom: 20px;
     img {
         margin-right: 10px;
     }
@@ -297,6 +296,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
+    .span {
+        padding: 0;
+    }
 
     & .active {
         height: 100%;
@@ -570,7 +573,7 @@ h2 {
     }
 
     [class^="col-"] {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -590,66 +593,35 @@ h2 {
     flex: 0 0 auto;
 }
 
-.col-1 {
-    flex-basis: calc(100%/12);
-    max-width: calc(100%/12);
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        flex-basis: calc((100% / 12) * $i);
+        max-width: calc((100%/ 12) * $i);
+    }
 }
 
-.col-2 {
-    flex-basis: calc((100% / 12) * 2);
-    max-width: calc((100%/12) * 2);
+
+
+@for $i from 1 through 12 {
+    .col-md-#{$i} {
+        @media screen and (max-width: 1024px) {
+            flex-basis: calc((100% / 12) * $i);
+            max-width: calc((100%/ 12) * $i);
+        }
+    }
 }
 
-.col-3 {
-    flex-basis: calc((100% / 12) * 3);
-    max-width: calc((100%/12) * 3);
+@for $i from 1 through 12 {
+    .col-sm-#{$i} {
+        @media screen and (max-width: 767px) {
+            flex-basis: calc((100% / 12) * $i);
+            max-width: calc((100%/ 12) * $i);
+        }
+    }
 }
 
-.col-4 {
-    flex-basis: calc((100% / 12) * 4);
-    max-width: calc((100%/12) * 4);
-}
 
-.col-5 {
-    flex-basis: calc((100% / 12) * 5);
-    max-width: calc((100%/12) * 5);
-}
-
-.col-6 {
-    flex-basis: calc((100% / 12) * 6);
-    max-width: calc((100%/12) * 6);
-}
-
-.col-7 {
-    flex-basis: calc((100% / 12) * 67);
-    max-width: calc((100%/12) * 7);
-}
-
-.col-8 {
-    flex-basis: calc((100% / 12) * 8);
-    max-width: calc((100%/12) * 8);
-}
-
-.col-9 {
-    flex-basis: calc((100% / 12) * 9);
-    max-width: calc((100%/12) * 9);
-}
-
-.col-10 {
-    flex-basis: calc((100% / 12) * 10);
-    max-width: calc((100%/12) * 10);
-}
-
-.col-11 {
-    flex-basis: calc((100% / 12) * 11);
-    max-width: calc((100%/12) * 11);
-    ;
-}
-
-.col-12 {
-    flex-basis: calc((100% / 12) * 12);
-    max-width: calc((100%/12) * 12);
-}
 
 
 // HEADER
@@ -669,17 +641,6 @@ h2 {
             p {
                 margin-right: 10px;
             }
-        }
-
-        .nav {
-            gap: 0;
-        }
-
-    }
-
-    @media screen and (max-width: 768px) {
-        .row {
-            flex-direction: column;
         }
     }
 }
@@ -713,17 +674,6 @@ h2 {
         flex-direction: row;
     }
 
-    @media screen and (max-width: 768px) {
-        .logo {
-            justify-self: center;
-        }
-
-        .row {
-            flex-direction: column;
-        }
-    }
-
-
 }
 
 
@@ -743,7 +693,8 @@ h2 {
         min-width: 300px;
         background: #000000;
         border-radius: 5px 5px 0 0;
-
+        display: flex;
+        justify-content: space-between;
         .browse-sign {
             margin-right: 15px;
             margin-left: 10px;
@@ -827,12 +778,6 @@ h2 {
     .input-button {
         height: 40px;
         width: 135px;
-    }
-
-    @media screen and (max-width: 1200px) {
-        .info-block {
-            flex-direction: row;
-        }
     }
 }
 

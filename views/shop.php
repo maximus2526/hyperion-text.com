@@ -156,8 +156,8 @@
                     </div>
                 </div>
 
-                <div class="products scheme-dark row-spacing">
-                    <div class="row content-center">
+                <div class="products scheme-dark">
+                    <div class="row content-center row-spacing">
                         <div class="col-3">
                             <div class="product hot">
                                 <div class="product-img">

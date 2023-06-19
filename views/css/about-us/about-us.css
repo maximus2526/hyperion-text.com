@@ -1,13 +1,3 @@
-@media screen and (max-width: 1200px) {
-  .about-us .row {
-    flex-direction: column;
-  }
-  .about-us .col-4 {
-    max-width: 100%;
-    flex-basis: 33.33%;
-  }
-}
-
 .about-us .info-blocks {
   margin-bottom: 120px;
 }
@@ -54,11 +44,7 @@
   margin-bottom: 100px;
 }
 .our-team .members {
-  width: 95%;
-  margin: 0 auto;
-}
-.our-team .carousel-bg {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 .our-team .member {
@@ -77,21 +63,17 @@
 .our-team .member-bio .subtitle {
   margin-bottom: 20px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
+  .our-team .carousel-bg {
+    width: 100%;
+    margin-left: 0;
+  }
   .our-team .team-content {
     margin-bottom: 50px;
     text-align: center;
   }
   .our-team .members {
     width: 85%;
-  }
-  .our-team .col-4 {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-  .our-team .col-8 {
-    flex: 1 1 100%;
-    max-width: 100%;
   }
 }
 

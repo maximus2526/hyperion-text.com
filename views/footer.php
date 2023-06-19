@@ -4,11 +4,11 @@
             <div class="row">
                 <div class="col-3">
                     <div class="info-block content-center display-flex">
-                        <div class="info-content left">
+                        <div class="info-content left col-sm-12">
                             <img src="/views/img/svg/hyperion-ferry-boat.svg" alt>
                         </div>
 
-                        <div class="info-content right">
+                        <div class="info-content right col-sm-12">
                             <h5 class="title">Free Shipping</h5>
                             <p class="subtitle">When ordering above
                                 $100</p>
@@ -18,11 +18,11 @@
 
                 <div class="col-3">
                     <div class="info-block content-center display-flex">
-                        <div class="info-content left">
+                        <div class="info-content left col-sm-12">
                             <img src="/views/img/svg/hyperion-shield.svg" alt>
                         </div>
 
-                        <div class="info-content right">
+                        <div class="info-content right col-sm-12">
                             <h5 class="title">Safe Shopping</h5>
                             <p class="subtitle">Encypted payment</p>
                         </div>
@@ -30,11 +30,11 @@
                 </div>
                 <div class="col-3">
                     <div class="info-block content-center display-flex">
-                        <div class="info-content left">
+                        <div class="info-content left col-sm-12">
                             <img src="/views/img/svg/hyperion-money.svg" alt>
                         </div>
 
-                        <div class="info-content right">
+                        <div class="info-content right col-sm-12">
                             <h5 class="title">Online Pay</h5>
                             <p class="subtitle">Support for multiple
                                 services</p>
@@ -44,11 +44,11 @@
 
                 <div class="col-3">
                     <div class="info-block content-center display-flex">
-                        <div class="info-content left">
+                        <div class="info-content left col-sm-12">
                             <img src="/views/img/svg/hyperion-customer-service.svg" alt>
                         </div>
 
-                        <div class="info-content right">
+                        <div class="info-content right col-sm-12">
                             <h5 class="title">24/7 Support</h5>
                             <p class="subtitle">Ready to answer
                                 questions</p>

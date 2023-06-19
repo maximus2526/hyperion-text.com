@@ -16,6 +16,9 @@
                 case 'contact-us':
                     $this->hyperion_controller->render_contact_us_action();
                     break;
+                case 'single-page':
+                    $this->hyperion_controller->render_single_page_action();
+                    break;
                 default:
                     $this->hyperion_controller->render_main_page_action();
             }

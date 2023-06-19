@@ -1,6 +1,5 @@
 .shop-heading {
     padding: 20px 0;
-    border-bottom: 1px solid #e6e6e6;
 
     .breadcrumb {
         & li:not(:first-child)::before {
@@ -58,8 +57,12 @@
 
 
 .show-more {
+    p {
+        margin-bottom: 0;
+    }
     a {
-        
+
+
         &::after {
             content: "/";
             margin: 0 5px;
@@ -92,7 +95,6 @@
         margin: 20px 0;
         a {
             display: block;
-            width: 100%;
             font-size: 15px;
             opacity: 70%;
         }
@@ -201,7 +203,6 @@
 .best-choise-block {
     .product {
         background: none;
-       
     }
 
     .design-horizontal .product-img img {

@@ -19,6 +19,9 @@ class Hyperion_Controller{
     public function render_contact_us_action(){
         render('contact-us');
     }
+    public function render_single_page_action(){
+        render('single-page');
+    }
 
 
 

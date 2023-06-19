@@ -12,7 +12,7 @@
             </div>
             <div class="info-blocks">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 col-md-12">
                         <div class="info-block bg-white">
                             <div class="hover-bg">
                                 <img src="/views/img/hyperion-about-us-infobox-1.jpg" alt>
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-12">
                         <div class="info-block bg-white">
                             <div class="hover-bg">
                                 <img src="/views/img/hyperion-about-us-infobox-2.jpg" alt>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-12">
                         <div class="info-block bg-white">
                             <div class="hover-bg ">
                                 <img src="/views/img/hyperion-about-us-infobox-3.jpg" alt>
@@ -82,7 +82,7 @@
     <div class="our-team">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-md-12">
                     <div class="team-content">
                         <p class="subtitle">Our friendly team</p>
                         <h4 class="title bold">Our Teammembers</h4>
@@ -95,7 +95,7 @@
                             More</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 col-md-12">
                     <div class="team-carousel">
                         <div class="carousel-bg"></div>
                         <div class="members">
