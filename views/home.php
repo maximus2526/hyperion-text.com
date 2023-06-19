@@ -325,7 +325,7 @@
 
                 <div class="row">
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/mi.png" alt="Xiaomi logo">
                             <h6 class="title">Xiaomi</h6>
                             <p class="opacity-30">
@@ -336,7 +336,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/one-plus.png" alt="One-plus logo">
                             <h6 class="title">Oneplus</h6>
                             <p class="opacity-30">
@@ -347,7 +347,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/dj.png" alt="Dji logo">
                             <h6 class="title">Dji</h6>
                             <p class="opacity-30">
@@ -358,7 +358,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/braun.png" alt="Braun logo">
                             <h6 class="title">Braun</h6>
                             <p class="opacity-30">
@@ -369,7 +369,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/gubi.png" alt="Gubi logo">
                             <h6 class="title">Gubi</h6>
                             <p class="opacity-30">
@@ -380,7 +380,7 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="brand bg-white">
+                        <div class="brand display-flex column align-center bg-white">
                             <img src="/views/img/brands/mini-brands/nike.png" alt="Xiaomi logo">
                             <h6 class="title">Nike</h6>
                             <p class="opacity-30">
@@ -419,7 +419,7 @@
                                 <img src="/views/img/hyperion-banner-5.jpg" alt>
                             </div>
 
-                            <div class="banner-content display-flex column">
+                            <div class="banner-content display-flex column space-between">
                                 <div class="banner-switch display-flex gap">
                                     <a href="#"><img src="/views/img/svg/arrow/left.svg" alt></a>
                                     <a href="#"><img src="/views/img/svg/arrow/right.svg" alt></a>

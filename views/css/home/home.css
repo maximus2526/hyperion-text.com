@@ -171,11 +171,6 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.top-brands .brand {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 @media screen and (max-width: 1300px) {
   .top-brands {
     width: 90%;
@@ -233,7 +228,6 @@
 }
 
 .banner-content {
-  justify-content: space-between;
   padding: 20px 0px;
 }
 .banner-content .description .btn {
@@ -314,14 +308,14 @@
     flex-direction: row;
     margin-bottom: 150px;
   }
-  .recomend-products .banners .banner {
+  .recomend-products .banner {
     width: 100%;
     height: fit-content;
   }
-  .recomend-products .banners .banner-bg img {
+  .recomend-products .banner-bg img {
     width: 100%;
   }
-  .recomend-products .banners .banner-content {
+  .recomend-products .banner-content {
     width: 100%;
   }
   .recomend-products .col-4 {

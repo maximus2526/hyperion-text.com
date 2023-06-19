@@ -13,16 +13,17 @@
     <header>
         <div class="header-top">
             <div class="container scheme-light">
-                <div class="row">
+                <div class="row align-center">
                     <div class="col-auto">
-                        <ul class="nav">
+                        <ul class="nav display-flex gap">
                             <li class="size-s opacity-80">Call Now: <a href="tel:+035527171070">(+035)
                                     527-1710-70</a></li>
-                            <li class="size-s opacity-80">Email: <a href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
+                            <li class="size-s opacity-80">Email: <a
+                                    href="mailto:Contact@hyperion.com">Contact@hyperion.com</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-auto col-right content-center no-filter">
+                    <div class="col-auto display-flex col-right content-center no-filter">
                         <p class="subtitle opacity-80">Ample end might folly quiet one
                             set spoke.</p>
                         <ul class="nav style-bordered">
@@ -68,7 +69,7 @@
 
                     <div class="col-fixed">
                         <div class="profile-element">
-                            <a  class="content-center display-flex" href="#">
+                            <a class="content-center display-flex" href="#">
                                 <img src="/views/img/svg/account.svg" alt="Account">
                                 <span>My account</span>
                             </a>
@@ -81,7 +82,7 @@
                         </div>
 
                         <div class="profile-element">
-                            <a  class="content-center display-flex" href="#">
+                            <a class="content-center display-flex" href="#">
                                 <img src="/views/img/svg/shop.svg" alt="Shop">
                                 <span>$280.00</span>
                             </a>
@@ -93,11 +94,11 @@
         </div>
         <div class="header-bottom">
             <div class="container">
-                <div class="row">
+                <div class="row align-center bg-white">
                     <div class="col-fixed">
                         <div class="browse-categories">
                             <div class="heading scheme-light">
-                                <div class="dropdown-title">
+                                <div class="dropdown-title display-flex align-center justify-center">
                                     <div class="left display-flex content-center">
                                         <img class="browse-sign" src="/views/img/svg/browse.svg"
                                             alt="Browse Categories Icon">
@@ -205,9 +206,12 @@
                                     Contact us</a></li>
                         </ul>
                     </div>
-                    <div class="col-auto style-bordered col-right display-flex">
-                        <a href="#" class="purchase-now">Purchase Now!</a>
-                        <p>Free Shipping from $300</p>
+                    <div class="col-auto">
+                        <div class="promo-block style-bordered col-right display-flex">
+                            <a href="#" class="purchase-now">Purchase Now!</a>
+                            <p>Free Shipping from $300</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
