@@ -412,7 +412,7 @@
                     <img src="/views/img/svg/hyperion-booster.svg" alt="Hot Category">
                     <h4 class="title">Hot Category</h4>
                 </div>
-                <div class="row">
+                <div class="row space-between">
                     <div class="col-3">
                         <div class="banner scheme-light">
                             <div class="banner-bg">
@@ -439,7 +439,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-8">
                         <div class="categories row-spacing">
                             <div class="row scheme-dark">
                                 <div class="col-4 ">

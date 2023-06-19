@@ -97,6 +97,12 @@
   margin-bottom: 10px;
 }
 @media (min-width: 769px) and (max-width: 1200px) {
+  .promo-banner .title {
+    margin-bottom: 0;
+  }
+  .promo-banner .subtitle {
+    margin-bottom: 10px;
+  }
   .promo-banner .banner-bg img {
     object-fit: cover;
     height: 220px;
@@ -186,23 +192,49 @@
 .hot-category {
   background: no-repeat url("../../img/categories/hyperion-category-bg.jpg");
   background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 .hot-category .hot-categories-block {
   margin-bottom: 50px;
 }
 .hot-category .banner-bg {
-  height: 100%;
+  height: 350px;
   min-width: 200px;
 }
 .hot-category .banner-bg img {
   height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1200px) {
+  .hot-category .banner-bg img {
+    object-position: top;
+  }
+  .hot-category .category {
+    flex-direction: column;
+  }
+  .hot-category .col-3 {
+    max-width: 100%;
+    flex-basis: 40%;
+  }
+  .hot-category .col-8 {
+    flex-basis: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hot-category .col-3 {
+    margin-bottom: 20px;
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 60px;
+  }
+  .hot-category .col-8 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
 }
 
 .banner-content {
   justify-content: space-between;
-  margin: 20px 0px;
+  padding: 20px 0px;
 }
 .banner-content .description .btn {
   margin-top: 20px;
@@ -219,7 +251,6 @@
   width: fit-content;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 25px rgb(230, 230, 230);
 }
 .banner-content .category .description {
   padding: 5px;
